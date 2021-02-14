@@ -1,0 +1,37 @@
+version: "3"
+
+networks:
+    ikram:
+
+
+services:
+
+  ikram:
+    container_name: ikram
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www/app
+    ports:
+      - "9098:9098"
+    environment:
+      - APP_ENV=development
+    networks:
+      - ikram
+    expose:
+      - '9098'
+
+  ikram_mysql:
+    container_name: ikram_mysql
+    image: mariadb
+
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "password"
+      MYSQL_DATABASE: ikram_db
+    networks:
+      - ikram
+    expose:
+      - '3306'
