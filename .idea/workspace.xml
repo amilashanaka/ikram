@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd704408-96b6-4688-8df8-48c9aa0b3a51" name="Default Changelist" comment="" />
+    <list default="true" id="bd704408-96b6-4688-8df8-48c9aa0b3a51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +169,11 @@
       <option name="presentableId" value="Default" />
       <updated>1613262196226</updated>
       <workItem from="1613262199682" duration="6304000" />
-      <workItem from="1613273463610" duration="792000" />
+      <workItem from="1613273463610" duration="1387000" />
+      <workItem from="1613332853848" duration="6385000" />
+      <workItem from="1613463010902" duration="626000" />
+      <workItem from="1613463976958" duration="91000" />
+      <workItem from="1613688331370" duration="1216000" />
     </task>
     <servers />
   </component>
@@ -171,10 +181,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="604" y="341" key="NewPhpFileDialog" timestamp="1613264928614">
+    <state x="604" y="341" key="NewPhpFileDialog" timestamp="1613688678223">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1613264928614" />
+    <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1613688678223" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1613262345472">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
