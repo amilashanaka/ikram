@@ -1,1025 +1,1299 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]>
-<!-->
-<html class="no-js" lang="en"><!--<![endif]-->
+<html>
 <head>
-
-    <!-- Basic Page Needs
-  ================================================== -->
     <meta charset="utf-8">
-    <title>Finance</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Consultax – Financial & Consulting HTML5 Template</title>
 
-    <!-- Font
-    ================================================== -->
+    <link rel="stylesheet" id="bootstrap-css" href="{{asset("Home/")}}css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" id="awesome-font-css" href="{{asset("Home/")}}css/font-awesome.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ionicon-font-css" href="{{asset("Home/")}}css/ionicon.css" type="text/css" media="all">
+    <link rel="stylesheet" id="royal-preload-css" href="{{asset("Home/")}}css/royal-preload.css" type="text/css" media="all">
+    <link rel="stylesheet" id="slick-slider-css" href="{{asset("Home/")}}css/slick.css" type="text/css" media="all">
+    <link rel="stylesheet" id="slick-theme-css" href="{{asset("Home/")}}css/slick-theme.css" type="text/css" media="all">
+    <link rel="stylesheet" id="consultax-style-css" href="{{asset("Home/")}}style.css" type="text/css" media="all">
 
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!-- RS5.0 Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="{{asset("Home/")}}revolution/css/settings.css">
 
-    <link rel="stylesheet" href="{{asset("Home/css/font-awesome.min.css")}}">
-    <!-- CSS
-    ================================================== -->
+    <!-- RS5.0 Layers and Navigation Styles -->
+    <link rel="stylesheet" type="text/css" href="{{asset("Home/")}}revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="{{asset("Home/")}}revolution/css/navigation.css">
 
-    <link rel="stylesheet" href="{{asset("Home/css/bootstrap.min.css")}}"/>
-    <!-- SELECTBOX
-    ================================================== -->
-
-    <link rel="stylesheet" type="text/css" href="{{asset("Home/css/fancySelect.css")}}"media="screen" />
-    <!-- SLIDER REVOLUTION 4.x SCRIPTS
-    ================================================== -->
-
-    <link rel="stylesheet" type="text/css" href="{{asset("Home/css/extralayers.css")}}" media="screen" />
-
-    <link rel="stylesheet" type="text/css" href="{{asset("Home/css/settings.css")}}" media="screen" />
-    <!-- SCROLL BAR MOBILE MENU
-    ================================================== -->
-
-    <link rel="stylesheet"  href="{{asset("Home/css/jquery.mCustomScrollbar.css")}}" />
-    <!-- OWL CAROUSEL
-    ================================================== -->
-
-    <link rel="stylesheet"  href="{{asset("Home/css/owl.carousel.css")}}">
-    <!-- SCROLL BAR MOBILE MENU
-    ================================================== -->
-
-    <link rel="stylesheet" href="{{asset("Home/css/jquery.mCustomScrollbar.css")}}" />
-    <!-- MAIN STYLE
-    ================================================== -->
-
-    <link rel="stylesheet" href="{{asset("Home/style.css")}}"/>
-    <!-- color scheme -->
-
-    <link rel="stylesheet" href="{{asset("Home/switcher/demo.css")}}" type="text/css">
-
-    <link rel="stylesheet" href="{{asset("Home/switcher/blue.css")}}"  type="text/css" id="colors">
-    <!-- Favicons
-    ================================================== -->
-
-    <link rel="shortcut icon"  href="{{asset("Home/favicon.png")}}">
-
+    <link rel="shortcut icon" href="{{asset("Home/")}}favicon.png">
 </head>
-<body>
-<div id="switcher">
-    <span class="custom-close"></span>
-    <span class="custom-show"></span>
+<body class="royal_preloader">
+<div id="page" class="site">
 
-    <a href="#" class="ot-btn btn-rounded btn-hightlight-color block-btn">Buy Now</a>
-
-    <div class="clearfix spacing-10"></div>
-
-    <span class="sw-title">Main Colors:</span>
-    <ul id="tm-color">
-        <li class="color11"></li>
-        <li class="color2"></li>
-        <li class="color3"></li>
-        <li class="color5"></li>
-        <li class="color8"></li>
-        <li class="color9"></li>
-    </ul>
-</div>
-<div class="mobile-menu-first">
-    <div id="mobile-menu" class="mobile-menu-light">
-        <div class="mCustomScrollbar light" data-mcs-theme="minimal-dark">
-            <div class="header-mobile-menu hmm-v1">
-                <span class="has-icon sm-icon"><span class="lnr lnr-phone-handset icon-set-1 icon-xs "></span> <span class="sub-text-icon text-middle"><strong>0112-826-2789</strong></span></span>
-                <a href="#" class="ot-btn btn-rounded btn-hightlight-color">Get A Quote</a>
-            </div> <!-- Mobile Menu -->
-            <ul>
-                <li>
-                    <a href="index.html"><i class="icon-home"></i> Home</a>
-                    <ul>
-                        <li><a href="index.html">Home Page Verison 1</a></li>
-                        <li><a href="home_2.html">Home Page Verison 2</a></li>
-                        <li><a href="home_3.html">Home Page Verison 3</a></li>
-                        <li><a href="home_4.html">Home Page Verison 4</a></li>
-                        <li><a href="home_5.html">Home Page Verison 5</a></li>
-                        <li><a href="home_6.html">Home Page Verison 6</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="servicesList.html">Services</a>
-                    <ul>
-                        <li><a href="servicesList.html">Services Style 1</a></li>
-                        <li><a href="servicesList2.html">Services Style 2</a></li>
-                        <li><a href="services-detail.html">Services Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="projectList.html">Projects</a>
-                    <ul>
-                        <li><a href="projectList.html">Project Grid</a></li>
-                        <li><a href="projectsDetail.html">Project Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="blogList.html">News</a>
-                    <ul>
-                        <li><a href="blogList.html">Blog List</a></li>
-                        <li><a href="blogDetail.html">Blog Detail</a></li>
-                    </ul>
-                </li>
-                <li><a href="shop-catalog.html">Shop</a>
-                    <ul>
-                        <li><a href="shop-catalog.html">Online Store Catalog</a></li>
-                        <li><a href="shop-cart.html">Online Store Shopping Cart</a></li>
-                        <li><a href="shop-checkout.html">Online Store Checkout</a></li>
-                        <li><a href="shop-single.html">Single Store Product</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Pages</a>
-                    <ul>
-                        <li><a href="elements.html">Element</a></li>
-                        <li><a href="typography.html">Typography</a></li>
-                        <li><a href="testimonial.html">Testinmonials</a>
-                        <li><a href="404.html">404 Page</a></li>
-                        <li><a href="comingsoon.html">Coming Soon</a></li>
-                    </ul>
-                </li>
-                <li><a href="about.html">About Us </a></li>
-                <li><a href="contact.html">Contact Us </a>
-                    <ul>
-                        <li><a href="contact.html">Contact Style 1</a></li>
-                        <li><a href="contact2.html">Contact Style 2</a></li>
-                        <li><a href="contact3.html">Contact Style 3</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="footer-mobile-menu fmm-v1">
-                <ul class="social">
-                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-
-                <ul class="address-footer-mobile">
-
-                    <li><a href=""><span class="lnr lnr-map-marker"></span> 8th floor, 379 Hudson St, New York, NY 10018</a></li>
-                    <li><a href="tel:18001236879 "><span class="lnr lnr-smartphone"></span> 1-800-123-6879 </a></li>
-                    <li><a href="mailto:contact@finance.com"><span class="lnr lnr-envelope"></span> contact@finance.com</a></li>
-
-                </ul>
-            </div>
-        </div> <!-- /#rmm   -->
-    </div>
-</div><!-- End Mobile Menu -->
-
-<div id="page">
-    <header id="sticked-menu" class="header header-v1">
-        <div class="logo">
-            <div class="mm-toggle">
-                <i class="fa fa-bars"></i><span class="mm-label">Menu</span>
-            </div> <!-- End button mobile menu -->
-            <a href="index.html"><img src="images/Header/logo.png" class="img-responsive" alt="Image"></a>
-        </div><!-- End Logo -->
-        <nav class="navi-desktop-site">
-            <ul class="navi-level-1">
-                <li class="has-sub"><a href="index.html">Home <i class="fa fa-angle-down"></i></a>
-                    <ul class="navi-level-2 ">
-                        <li><a href="index.html">Home Page Verison 1</a></li>
-                        <li><a href="home_2.html">Home Page Verison 2</a></li>
-                        <li><a href="home_3.html">Home Page Verison 3</a></li>
-                        <li><a href="home_4.html">Home Page Verison 4</a></li>
-                        <li><a href="home_5.html">Home Page Verison 5</a></li>
-                        <li><a href="home_6.html">Home Page Verison 6</a></li>
-                    </ul>
-                </li>
-                <li class="has-sub"><a href="servicesList.html">Services <i class="fa fa-angle-down"></i></a>
-                    <ul class="navi-level-2">
-                        <li><a href="servicesList.html">Services Style 1</a></li>
-                        <li><a href="servicesList2.html">Services Style 2</a></li>
-                        <li><a href="services-detail.html">Services Details</a></li>
-                    </ul>
-                </li>
-
-                <li class="has-sub"><a href="projectList.html">Projects  <i class="fa fa-angle-down"></i></a>
-                    <ul class="navi-level-2">
-                        <li><a href="projectList.html">Project Grid</a></li>
-                        <li><a href="projectsDetail.html">Project Details</a></li>
-                    </ul>
-                </li>
-                <li class="has-sub"><a href="blogList.html">News<i class="fa fa-angle-down"></i></a>
-                    <ul class="navi-level-2">
-                        <li><a href="blogList.html">Blog List</a></li>
-                        <li><a href="blogDetail.html">Blog Detail</a></li>
-                    </ul>
-                </li>
-                <li class="has-sub"><a href="shop-catalog.html">Shop<i class="fa fa-angle-down"></i></a>
-                    <ul class="navi-level-2">
-                        <li><a href="shop-catalog.html">Online Store Catalog</a></li>
-                        <li><a href="shop-cart.html">Online Store Shopping Cart</a></li>
-                        <li><a href="shop-checkout.html">Online Store Checkout</a></li>
-                        <li><a href="shop-single.html">Single Store Product</a></li>
-                    </ul>
-                </li>
-                <li class="has-sub"><a href="">Pages  <i class="fa fa-angle-down"></i></a>
-                    <ul class="navi-level-2">
-                        <li><a href="elements.html">Element</a></li>
-                        <li><a href="typography.html">Typography</a></li>
-                        <li><a href="testimonial.html">Testinmonials</a>
-                        <li><a href="404.html">404 Page</a></li>
-                        <li><a href="comingsoon.html">Coming Soon</a></li>
-                    </ul>
-
-
-                </li>
-                <li><a href="about.html">About Us  </a></li>
-                <li class="has-sub"><a href="contact.html">Contact Us  <i class="fa fa-angle-down"></i></a>
-                    <ul class="navi-level-2">
-                        <li><a href="contact.html">Contact Style 1</a></li>
-                        <li><a href="contact2.html">Contact Style 2</a></li>
-                        <li><a href="contact3.html">Contact Style 3</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav> <!-- End Navi Desktop -->
-        <div class="navi-right">
-            <ul>
-                <li ><span class="has-icon sm-icon" ><span class="lnr lnr-phone-handset icon-set-1 icon-xs"></span> <span class="sub-text-icon text-middle sub-text-middle">0112-826-2789</span></span></li>
-                <li>
-                    <a href="#" class="ot-btn btn-rounded btn-hightlight-color">Get A Quote</a>
-                </li>
-            </ul>
-        </div>
-    </header><!-- END HEADER -->
-
-    <!-- Slider -->
-    <div class="no-padding">
-        <div class="slider slider-dark-arrow slider-home-1">
-            <div class="fullwidthbanner-container">
-                <div id="revolution-slider-home-1">
-                    <ul>  <!-- SLIDE  -->
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="4000">
-                            <!-- MAIN IMAGE -->
-                            <img src="images/Slider/1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
-                            <!-- LAYER NR. 1 -->
-                            <div class="tp-caption sfr stt h2-text"
-                                 data-x="0"
-                                 data-y="298"
-                                 data-speed="400"
-                                 data-start="1000"
-                                 data-easing="easeInOut"
-                            >Great experience
-                            </div>
-
-                            <!-- LAYER NR. 2 -->
-                            <div class="tp-caption sfr stt h1-text"
-                                 data-x="0"
-                                 data-y="381"
-                                 data-speed="400"
-                                 data-start="1400"
-                                 data-easing="easeInOut"
-                            >Meet our adviser
-                            </div>
-
-                            <!-- LAYER NR. 3 -->
-                            <div class="tp-caption sfr stb h3-text"
-                                 data-x="0"
-                                 data-y="455"
-
-                                 data-speed="400"
-                                 data-start="1700"
-                                 data-easing="easeInOut"
-                                 style="max-width: 565px">
-                                Comprehensive financial advice and financial services that are tailored to meet your individual needs.
-                            </div>
-
-                            <!-- LAYER NR. 4 -->
-                            <div class="tp-caption sfr stb group-btn-slider"
-                                 data-x="0"
-                                 data-y="580"
-
-                                 data-speed="400"
-                                 data-start="1900"
-                                 data-easing="easeInOut"
-                            > <a href="servicesList.html" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>  <a href="servicesList2.html" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Quick Call Back</a>
-                            </div>
-                        </li>
-                        <!-- SLIDE  -->
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="6000">
-                            <!-- MAIN IMAGE -->
-                            <img src="images/Slider/2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
-
-                            <!-- LAYER NR. 1 -->
-                            <div class="tp-caption sfr stt h2-text"
-                                 data-x="0"
-                                 data-y="298"
-                                 data-speed="400"
-                                 data-start="1000"
-                                 data-easing="easeInOut"
-                            >HELPING YOU TO
-                            </div>
-
-
-
-
-                            <!-- LAYER NR. 2 -->
-                            <div class="tp-caption sfr stt h1-text"
-                                 data-x="0"
-                                 data-y="381"
-                                 data-speed="400"
-                                 data-start="1400"
-                                 data-easing="easeInOut"
-                            >GROW YOUR BUSINESS
-                            </div>
-
-                            <!-- LAYER NR. 3 -->
-                            <div class="tp-caption sfr stb h3-text"
-                                 data-x="0"
-                                 data-y="455"
-
-                                 data-speed="400"
-                                 data-start="1700"
-                                 data-easing="easeInOut"
-                                 style="max-width: 565px">
-                                Comprehensive financial advice and financial services that are tailored to meet your individual needs.
-                            </div>
-                            <!-- LAYER NR. 4 -->
-                            <div class="tp-caption sfr stb group-btn-slider"
-                                 data-x="0"
-                                 data-y="580"
-
-                                 data-speed="400"
-                                 data-start="1900"
-                                 data-easing="easeInOut"
-                            > <a href="servicesList.html" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>  <a href="servicesList2.html" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Quick Call Back</a>
-                            </div>
-                        </li>
-                        <!--SLIDE-->
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="4000">
-                            <!-- MAIN IMAGE -->
-                            <img src="images/Slider/3.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
-                            <!-- LAYER NR. 1 -->
-                            <div class="tp-caption sfr stt h2-text"
-                                 data-x="0"
-                                 data-y="298"
-                                 data-speed="400"
-                                 data-start="1000"
-                                 data-easing="easeInOut"
-                            >Finance Focus
-                            </div>
-
-                            <!-- LAYER NR. 2 -->
-                            <div class="tp-caption sfr stt h1-text"
-                                 data-x="0"
-                                 data-y="381"
-                                 data-speed="400"
-                                 data-start="1400"
-                                 data-easing="easeInOut"
-                            >Road to Success
-                            </div>
-
-                            <!-- LAYER NR. 3 -->
-                            <div class="tp-caption sfr stb h3-text"
-                                 data-x="0"
-                                 data-y="455"
-
-                                 data-speed="400"
-                                 data-start="1700"
-                                 data-easing="easeInOut"
-                                 style="max-width: 565px">
-                                Listen to what you want for your future, then together we create a plan to help you get there
-                            </div>
-
-                            <!-- LAYER NR. 4 -->
-                            <div class="tp-caption sfr stb group-btn-slider"
-                                 data-x="0"
-                                 data-y="580"
-
-                                 data-speed="400"
-                                 data-start="1900"
-                                 data-easing="easeInOut"
-                            > <a href="servicesList.html" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>  <a href="servicesList2.html" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Quick Call Back</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div><!-- Slider Revolution End -->
-
-    <!-- Component Blog -->
-    <section class="padding-top-50">
-        <div class="container">
-            <div class="row">
-                <div class="services-home-1">
-                    <div class="col-md-4">
-                        <div class="item-blog">
-                            <div class="thumbnail">
-                                <a href="blogDetail.html" class="img-blog-contain"><img src="images/Blog/1.jpg" alt=""></a>
-                                <div class="caption">
-                                    <a href="blogDetail.html"><h4>Start A Good Plan</h4></a>
-                                    <p>
-                                        Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor, quis porta tellus dictum.
-                                    </p>
-                                    <a class="learn-more" href="blogDetail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Learn More
-
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="item-blog">
-                            <div class="thumbnail">
-                                <a href="blogDetail.html" class="img-blog-contain"><img src="images/Blog/2.jpg" alt=""></a>
-                                <div class="caption">
-                                    <a href="blogDetail.html"><h4>Experienced Experts</h4></a>
-                                    <p>
-                                        Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor, quis porta tellus dictum.
-                                    </p>
-                                    <a class="learn-more" href="blogDetail.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Learn More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="item-blog">
-                            <div class="thumbnail">
-                                <a href="blogDetail.html" class="img-blog-contain"><img src="images/Blog/3.jpg" alt=""></a>
-                                <div class="caption">
-                                    <a href="blogDetail.html"><h4>Grow Your Financial</h4></a>
-                                    <p>
-                                        Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor, quis porta tellus dictum.
-                                    </p>
-                                    <a class="learn-more" href="blogDetail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Learn More
-
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- End Row 2 -->
-        </div><!-- End container -->
-    </section>
-
-    <!-- Component Media Left Icon Our Services-->
-    <section class="bg-grey">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="title clearfix">Our Services</h2>
-                </div><!-- End col -->
-                <div class="services-warp">
-                    <article class=" col-sm-6 col-md-4 media-style media-left-icon-item">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-bar-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="">Financial Planning</h4>
-                                <p>
-                                    Donec lacinia mi rutrum sagittis consequat. Donec sagittis, tellus sodales sollicitudin commodo, risus urna interdum massa
-                                </p>
-                            </div>
-                        </div>
-                    </article><!-- End article -->
-                    <article class=" col-sm-6 col-md-4 media-style media-left-icon-item">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-money"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="">Investments Management</h4>
-                                <p>
-                                    Quisque mollis metus magna, ut accumsan elit hendrerit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </article><!-- End article -->
-                    <article class=" col-sm-6 col-md-4 media-style media-left-icon-item">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-calculator"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="">Taxes Planning</h4>
-                                <p>
-                                    Donec lacinia mi rutrum sagittis consequat. Donec sagittis, tellus sodales sollicitudin commodo, risus urna interdum massa
-                                </p>
-                            </div>
-                        </div>
-                    </article><!-- End article -->
-                    <article class=" col-sm-6 col-md-4 media-style media-left-icon-item no-margin">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-university"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="">Business Loan</h4>
-                                <p>
-                                    Donec lacinia mi rutrum sagittis consequat. Donec sagittis, tellus sodales sollicitudin commodo, risus urna interdum massa
-                                </p>
-                            </div>
-                        </div>
-                    </article><!-- End article -->
-                    <article class=" col-sm-6 col-md-4 media-style media-left-icon-item no-margin">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-shield"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="">Insurance Consulting</h4>
-                                <p>
-                                    Donec lacinia mi rutrum sagittis consequat. Donec sagittis, tellus sodales sollicitudin commodo, risus urna interdum massa
-                                </p>
-                            </div>
-                        </div>
-                    </article><!-- End article -->
-                    <article class=" col-sm-6 col-md-4 media-style media-left-icon-item no-margin">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-home"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="">Retirement Planning </h4>
-                                <p>
-                                    Donec lacinia mi rutrum sagittis consequat. Donec sagittis, tellus sodales sollicitudin commodo, risus urna interdum massa
-                                </p>
-                            </div>
-                        </div>
-                    </article><!-- End article -->
-                </div><!-- End Services Warp -->
-            </div> <!-- End Row -->
-        </div><!-- End container -->
-    </section>
-
-    <!-- Component Courter Up -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="counter-up counter-up-style-1 text-center">
-                        <h2>We are help you to grow your business</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id lectus quis dui euismod consectetur. Pellentesque ac ante sollicitudin, tincidunt nulla in, bibendum massa. Phasellus bibendum, sem velue aliquam gravida, eros ex dapibus neque, eget fermentum dolor arcu a tortor. Integer placerat massa nec elit egestas efficitur. </p>
-                        <ul>
-                            <li>
-                                <p><span class="couterup" id="yoe"></span></p>
-                                <span class="label-counter">Years of experience</span>
+    <header id="site-header" class="site-header mobile-header-blue header-style-1">
+        <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- social icons -->
+                        <ul class="social-list fleft">
+                            <li><a href="{{asset("Home/")}}#" target="_blank"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li>
-                                <p><span class="couterup" id="hc"></span><span class="unit">K</span></p>
-                                <span class="label-counter">Happy Customers</span>
+                            <li><a href="{{asset("Home/")}}#" target="_blank"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li>
-                                <p><span class="couterup" id="satis"></span><span class="unit">%</span></p>
-                                <span class="label-counter">Satisfaction</span>
+                            <li><a href="{{asset("Home/")}}#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="{{asset("Home/")}}#" target="_blank"><i class="fa fa-rss"></i></a>
                             </li>
                         </ul>
-                    </div><!-- End counter up -->
-                </div> <!-- End cold -->
-            </div><!-- End row -->
-        </div><!-- End container -->
-    </section><!-- End Section -->
-
-    <!-- Component Owl Project -->
-    <section class=" bg-grey padding-top-55 padding-bottom-60">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="title">Our Projects</h2>
-
-                    <div class="customNavigation">
-                        <a class="btn prev-project"><i class="fa fa-angle-left"></i></a>
-                        <a class="btn next-project"><i class="fa fa-angle-right"></i></a>
-                    </div><!-- End owl button -->
-
-                    <div id="owl-project" class="owl-carousel owl-theme  owl-project clearfix">
-                        <div class="item">
-                            <a href="projectsDetail.html">
-                                <img src="images/Project/1.jpg" class="img-responsive" alt="Image">
-                                <h5 class="title-project">Enterprise Loan</h5>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="projectsDetail.html">
-                                <img src="images/Project/2.jpg" class="img-responsive" alt="Image">
-                                <h5 class="title-project">Money Market</h5>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="projectsDetail.html">
-                                <img src="images/Project/3.jpg" class="img-responsive" alt="Image">
-                                <h5 class="title-project">MO Insurance </h5>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="projectsDetail.html">
-                                <img src="images/Project/5.jpg" class="img-responsive" alt="Image">
-                                <h5 class="title-project">Business Loan</h5>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="projectsDetail.html">
-                                <img src="images/Project/6.jpg" class="img-responsive" alt="Image">
-                                <h5 class="title-project">Financial Report</h5>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="projectsDetail.html">
-                                <img src="images/Project/7.jpg" class="img-responsive" alt="Image">
-                                <h5 class="title-project">2016 Retirement Plan</h5>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="projectsDetail.html">
-                                <img src="images/Project/8.jpg" class="img-responsive" alt="Image">
-                                <h5 class="title-project">Business Growth Solutions</h5>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="projectsDetail.html">
-                                <img src="images/Project/9.jpg" class="img-responsive" alt="Image">
-                                <h5 class="title-project">Insurance Life</h5>
-                            </a>
-                        </div>
-                    </div> <!--End Owl  -->
-                </div><!-- End Col -->
-            </div><!-- End Row -->
-        </div> <!-- End Container -->
-    </section><!-- End Section -->
-
-    <!-- Component Get a Call Back-->
-    <section class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="get-call-back-contain">
-                    <div class="col-md-6 get-call-back-left">
-                        <div class="call-back-text">
-                            <h2 class="text-white">Get a Call Back</h2>
-                            <div class="clearfix"></div>
-                            <p class="text-grey">If you need to speak to us about a general query fill in<br> the form below and we will call you back within the<br> same working day.</p>
-                        </div><!-- End call back text left -->
+                        <!-- social icons close -->
+                        <div class="topbar-text fright"> Opening Hours : Monday to Saturday - 8am to 9pm</div>
                     </div>
-                    <div class="col-md-6 get-call-back-right">
-                        <div class="call-back-form">
-                            <form action="GET" method="POST">
-                                <p>How can we help? *</p>
+                </div>
+            </div>
+        </div>
+        <!-- Top bar close -->
 
-                                <select class="form-control custom-form custom-select">
-                                    <option selected="selected">Discussions with Financial Experts</option>
-                                    <option>Meet Finance Assistant - PR Agency </option>
-                                    <option>Discussions with Senior Finance Manager</option>
-                                    <option>Designer</option>
-                                    <option>Our CEO Finanace Theme Group</option>
-                                </select>
-                                <div class="row">
-                                    <div class="form-group col-md-6 custom-form">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name: *">
+        <!-- Main header start -->
+        <div class="main-header md-hidden sm-hidden">
+            <div class="main-header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-wrap-table">
+                                <div id="site-logo" class="site-logo col-media-left col-media-middle">
+                                    <a href="{{asset("Home/")}}index.html">
+                                        <img class="logo-static" src="{{asset("Home/")}}images/logo-white.svg" alt="Consultax">
+                                        <img class="logo-scroll" src="{{asset("Home/")}}images/logo-white.svg" alt="Consultax">
+                                    </a>
+                                </div>
+                                <div class="col-media-body col-media-middle">
+                                    <!-- contact info -->
+                                    <ul class="info-list info_on_right_side fright">
+                                        <li>
+                                            <span>Address: <strong>121 King Street <br>Melbourne Victoria 3000 Australia</strong></span> </li>
+                                        <li>
+                                            <span>Free call: <strong class="font-size18">(917)  814 - 3527</strong></span> </li>
+                                    </ul>
+                                    <!-- contact info close -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="header-mainnav">
+
+                                <div class="search-cart-box fright">
+                                    <div class="h-cart-btn fright"><a href="{{asset("Home/")}}#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
+
+                                    <div class="toggle_search fright"><i class="fa fa-search" aria-hidden="true"></i></div>
+                                    <div class="h-search-form-field">
+                                        <form role="search" method="get" id="search-form" class="search-form" action="#">
+                                            <input type="search" class="search-field" placeholder="Enter keyword..." value="" name="s">
+                                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                                        </form>
                                     </div>
-                                    <div class="form-group col-md-6 custom-form">
-                                        <input type="text" class="form-control" id="phone" placeholder="Phone Number: *">
+
+                                </div>
+                                <div id="site-navigation" class="main-navigation fleft">
+                                    <ul id="primary-menu" class="menu">
+                                        <li><a href="{{asset("Home/")}}index.html">Home</a>
+                                        </li>
+                                        <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1731"><a href="{{asset("Home/")}}#">Pages</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item-1738"><a href="{{asset("Home/")}}about.html">About Us</a></li>
+                                                <li class="menu-item-1745"><a href="{{asset("Home/")}}team.html">Our Team</a></li>
+                                                <li class="menu-item-1742"><a href="{{asset("Home/")}}how-it-work.html">How It Work</a></li>
+                                                <li class="menu-item-1746"><a href="{{asset("Home/")}}testimonials.html">Testimonials</a></li>
+                                                <li class="menu-item-1757"><a href="{{asset("Home/")}}services.html">Services Box</a></li>
+                                                <li class="menu-item-1744"><a href="{{asset("Home/")}}services-icon.html">Icon Box</a></li>
+                                                <li class="menu-item-1740"><a href="{{asset("Home/")}}career.html">Career</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1789"><a href="{{asset("Home/")}}services.html">Services</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item-1791"><a href="{{asset("Home/")}}service-detail.html">Financial Consulting</a></li>
+                                                <li class="menu-item-1758"><a href="{{asset("Home/")}}service-detail.html">International Business</a></li>
+                                                <li class="menu-item-1790"><a href="{{asset("Home/")}}service-detail.html">Audit &amp; Assurance</a></li>
+                                                <li class="menu-item-1760"><a href="{{asset("Home/")}}service-detail.html">Taxes and Efficiency</a></li>
+                                                <li class="menu-item-1761"><a href="{{asset("Home/")}}service-detail.html">Bonds &amp; Commodities</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="{{asset("Home/")}}projects.html">Cases Study</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="{{asset("Home/")}}projects.html">Cases Study 2 Columns</a></li>
+                                                <li><a href="{{asset("Home/")}}projects-2.html">Cases Study 3 Columns</a></li>
+
+                                                <li><a href="{{asset("Home/")}}project-detail.html">Cases Study Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="{{asset("Home/")}}blog.html">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="{{asset("Home/")}}blog.html">Blog List</a></li>
+                                                <li><a href="{{asset("Home/")}}post.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="{{asset("Home/")}}contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <!-- #site-navigation -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Main header close -->
+        <div class="header_mobile">
+            <div class="mlogo_wrapper clearfix">
+                <div class="mobile_logo">
+                    <a href="{{asset("Home/")}}#"><img src="{{asset("Home/")}}images/logo-white.svg" alt="Consultax"></a>
+                </div>
+                <div id="mmenu_toggle">
+                    <button></button>
+                </div>
+            </div>
+            <div class="mmenu_wrapper">
+                <div class="mobile_nav collapse">
+                    <ul id="menu-main-menu" class="mobile_mainmenu">
+                        <li class="current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="{{asset("Home/")}}index.html">Home</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item-home current-page_item page-item-1530 current_page_item menu-item-2017"><a href="{{asset("Home/")}}index.html" aria-current="page">Home 1</a></li>
+                                <li class="menu-item-2016"><a href="{{asset("Home/")}}home-2.html">Home 2</a></li>
+                                <li class="menu-item-2015"><a href="{{asset("Home/")}}home-3.html">Home 3</a></li>
+                                <li class="menu-item-2059"><a href="{{asset("Home/")}}home-4.html">Home 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1731"><a href="{{asset("Home/")}}#">Pages</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item-1738"><a href="{{asset("Home/")}}about.html">About Us</a></li>
+                                <li class="menu-item-1745"><a href="{{asset("Home/")}}team.html">Our Team</a></li>
+                                <li class="menu-item-1742"><a href="{{asset("Home/")}}how-it-work.html">How It Work</a></li>
+                                <li class="menu-item-1746"><a href="{{asset("Home/")}}testimonials.html">Testimonials</a></li>
+                                <li class="menu-item-1757"><a href="{{asset("Home/")}}services.html">Services Box</a></li>
+                                <li class="menu-item-1744"><a href="{{asset("Home/")}}services-icon.html">Icon Box</a></li>
+                                <li class="menu-item-1740"><a href="{{asset("Home/")}}career.html">Career</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1789"><a href="{{asset("Home/")}}services.html">Services</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item-1791"><a href="{{asset("Home/")}}service-detail.html">Financial Consulting</a></li>
+                                <li class="menu-item-1758"><a href="{{asset("Home/")}}service-detail.html">International Business</a></li>
+                                <li class="menu-item-1790"><a href="{{asset("Home/")}}service-detail.html">Audit &amp; Assurance</a></li>
+                                <li class="menu-item-1760"><a href="{{asset("Home/")}}service-detail.html">Taxes and Efficiency</a></li>
+                                <li class="menu-item-1761"><a href="{{asset("Home/")}}service-detail.html">Bonds &amp; Commodities</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="{{asset("Home/")}}projects.html">Cases Study</a>
+                            <ul class="sub-menu">
+                                <li><a href="{{asset("Home/")}}projects.html">Cases Study 2 Columns</a></li>
+                                <li><a href="{{asset("Home/")}}projects-2.html">Cases Study 3 Columns</a></li>
+
+                                <li><a href="{{asset("Home/")}}project-detail.html">Cases Study Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="{{asset("Home/")}}blog.html">Blog</a>
+                            <ul class="sub-menu">
+                                <li><a href="{{asset("Home/")}}blog.html">Blog List</a></li>
+                                <li><a href="{{asset("Home/")}}post.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{asset("Home/")}}contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- #site-header -->
+
+    <div id="content" class="site-content">
+        <section id="section-slider" class="fullwidthbanner-container" aria-label="section-slider">
+            <div id="revolution-slider">
+                <ul>
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img src="{{asset("Home/")}}https://via.placeholder.com/1920x700" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" />
+                        <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="['0']" data-y="bottom" data-voffset="" data-width="['auto','320','auto','320']" data-transform_idle="o:1;" data-transform_in="x:550px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000" data-responsive_offset="on">
+                            <img class="img-responsive md-hidden sm-hidden xs-hidden" src="{{asset("Home/")}}https://via.placeholder.com/505x465/000000" alt="Image">
+                        </div>
+                        <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="top" data-voffset="200" data-width="['580','580','480','320']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-fontsize="['14','14','14','14']" data-responsive_offset="on">
+                            <p>WE'RE CONSULTAX</p>
+                        </div>
+                        <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['-45','-45','-45','-45']" data-width="['670','580','480','320']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1700" data-whitespace="['normal']" data-fontsize="['50','50','40','30']" data-lineheight="['60','60','50','40']" data-responsive_offset="on">
+                            <p>Financial Consulting For Your Business</p>
+                        </div>
+                        <div class="tp-caption tp-resizeme sh3" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['60','60','60','60']" data-width="['580','580','480','300']" data-transform_idle="o:1;" data-whitespace="['normal','normal','normal','normal']" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1900" data-fontsize="['16','16','14','12']" data-lineheight="['24','24','18','16']" data-responsive_offset="on">
+                            <p>Augue cubilia habitasse nostra sed dui facilisi lacus varius, porttitor gravida ultrices tristique hendrerit quisque congue facilisis.</p>
+                        </div>
+                        <div class="tp-caption" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="bottom" data-voffset="['185','185','185','185']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2100">
+                            <a class="btn" href="{{asset("Home/")}}#">GET QUOTE</a>
+                        </div>
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img src="{{asset("Home/")}}https://via.placeholder.com/1920x700" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" />
+                        <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="" data-y="bottom" data-voffset="" data-width="['auto','380','auto','320']" data-transform_idle="o:1;" data-transform_in="x:550px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000" data-responsive_offset="on">
+                            <img class="img-responsive md-hidden sm-hidden xs-hidden" src="{{asset("Home/")}}https://via.placeholder.com/505x465/000000" alt="Image">
+                        </div>
+                        <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="top" data-voffset="200" data-width="['580','580','480','320']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-fontsize="['14','14','14','14']" data-responsive_offset="on">
+                            <p>WE'RE CONSULTAX</p>
+                        </div>
+                        <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['-45','-45','-45','-45']" data-width="['670','580','480','320']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1700" data-whitespace="['normal']" data-fontsize="['50','50','40','30']" data-lineheight="['60','60','50','40']" data-responsive_offset="on">
+                            <p>Finance Focus Road To Success </p>
+                        </div>
+                        <div class="tp-caption tp-resizeme" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['60','60','60','60']" data-width="['580','580','480','300']" data-transform_idle="o:1;" data-whitespace="['normal','normal','normal','normal']" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1900" data-fontsize="['16','16','14','12']" data-lineheight="['24','24','18','16']" data-responsive_offset="on">
+                            <p>Bugue cubilia habitasse nostra sed dui facilisi lacus varius, porttitor gravida ultrices tristique hendrerit quisque congue facilisis.</p>
+                        </div>
+                        <div class="tp-caption" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="bottom" data-voffset="['185','185','185','185']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2100">
+                            <a class="btn" href="{{asset("Home/")}}#">GET QUOTE</a>
+                        </div>
+                    </li>
+
+                    <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
+                        <!--  BACKGROUND IMAGE -->
+                        <img src="{{asset("Home/")}}https://via.placeholder.com/1920x700" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" />
+                        <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="" data-y="bottom" data-voffset="" data-width="['auto','290','auto','320']" data-transform_idle="o:1;" data-transform_in="x:550px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000" data-responsive_offset="on">
+                            <img class="img-responsive md-hidden sm-hidden xs-hidden" src="{{asset("Home/")}}https://via.placeholder.com/505x465/000000" alt="Image">
+                        </div>
+                        <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="top" data-voffset="200" data-width="['580','580','480','320']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-fontsize="['14','14','14','14']" data-responsive_offset="on">
+                            <p>WE'RE CONSULTAX</p>
+                        </div>
+                        <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['-45','-45','-45','-45']" data-width="['670','580','480','320']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1700" data-whitespace="['normal']" data-fontsize="['50','50','40','30']" data-lineheight="['60','60','50','40']" data-responsive_offset="on">
+                            <p>Help You To Grow Your Business</p>
+                        </div>
+                        <div class="tp-caption tp-resizeme sh3" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['60','60','60','60']" data-width="['580','580','480','300']" data-transform_idle="o:1;" data-whitespace="['normal','normal','normal','normal']" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1900" data-fontsize="['16','16','14','12']" data-lineheight="['24','24','18','16']" data-responsive_offset="on">
+                            <p>Gugue cubilia habitasse nostra sed dui facilisi lacus varius, porttitor gravida ultrices tristique hendrerit quisque congue facilisis.</p>
+                        </div>
+                        <div class="tp-caption" data-x="['left']" data-hoffset="['0','15','15','15']" data-y="bottom" data-voffset="['185','185','185','185']" data-transform_idle="o:1;" data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2100">
+                            <a class="btn" href="{{asset("Home/")}}#">GET QUOTE</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="wpb_row row-fluid top-70 row-has-fill relative bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column column_container col-sm-12">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="empty_space_70 lg-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-3">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box box-shadow-2 ionic ">
+                                    <i class="ion-md-medal ion-ios-medal ion-logo-medal ion-ios-medal"></i>
+                                    <div class="content-box">
+                                        <h4>Quality Services</h4>
+                                        <p>Conubia ut aliquam cub gravida sed morbi accumsa.</p>
                                     </div>
                                 </div>
-                                <button type="submit" class="ot-btn large-btn btn-rounded btn-main-color btn-submit">Submit</button>
+
+                                <div class="empty_space_30  lg-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-3">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box box-shadow-2 ionic ">
+                                    <i class="ion-md-bulb ion-ios-bulb ion-logo-bulb ion-ios-bulb"></i>
+                                    <div class="content-box">
+                                        <h4>Valuable Ideas</h4>
+                                        <p>Ante pharetra posuere blandit aliquam fusce sollicitudin.</p>
+                                    </div>
+                                </div>
+
+                                <div class="empty_space_30 lg-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-3">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box box-shadow-2 ionic ">
+                                    <i class="ion-md-cash ion-ios-cash ion-logo-cash ion-ios-cash"></i>
+                                    <div class="content-box">
+                                        <h4>Budget Friendly</h4>
+                                        <p>Lacinia nisl accumsa sceleris phasellus venenatis don,</p>
+                                    </div>
+                                </div>
+
+                                <div class="empty_space_30 lg-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-3">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box box-shadow-2 ionic ">
+                                    <i class="ion-md-headset ion-ios-headset ion-logo-headset ion-ios-headset"></i>
+                                    <div class="content-box">
+                                        <h4>Suport 24/7</h4>
+                                        <p>Etiam sollicitudin sagittis justo at ullamcorper potenti.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wpb_row row-fluid section-padd row-has-fill row-o-equal-height row-o-content-middle row-flex bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column column_container col-sm-12">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="row wpb_row inner row-fluid row-o-equal-height row-o-content-middle row-flex">
+                                    <div class="wpb_column column_container col-sm-12 col-md-6 col-has-fill custom-padd-1">
+                                        <div class="column-inner">
+                                            <div class="wpb_wrapper"></div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-second wpb_column column_container col-sm-12 col-md-6">
+                                        <div class="column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="empty_space_60 lg-hidden h60"><span class="empty_space_inner"></span></div>
+
+                                                <div class="section-head padding-box-2 text-light">
+                                                    <h6><span>WHO WE ARE</span></h6>
+                                                    <h2 class="section-title">Our Mission,<br>Values and Motto</h2>
+                                                </div>
+
+                                                <div class="wpb_text_column wpb_content_element padding-box-2 text-light">
+                                                    <div class="wpb_wrapper">
+                                                        <p>A putrid, nicotine-shaded mist loomed over Beijing on Thursday after a massive sandstorm slammed into the Chinese capital bringing the latest airpocalypse to this smog-choked city.</p>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="wpb_text_column wpb_content_element paddtop-75 padding-box-2 info-box text-light">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="sign">
+                                                            <p><img class="alignnone size-full wp-image-1087" src="{{asset("Home/")}}images/sign1.png" alt="" width="79" height="49"></p>
+                                                            <h5>James Patterson</h5>
+                                                            <p>Founder &amp; CEO
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="empty_space_60 lg-hidden"><span class="empty_space_inner"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wpb_row row-fluid section-padd">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column column_container col-sm-12 col-md-9">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="section-head ">
+                                    <h6><span>OUR SERVICES</span></h6>
+                                    <h2 class="section-title">What we bring to you</h2>
+                                </div>
+
+                                <div class="empty_space_30 md-hidden sm-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-12 col-md-3">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element text-right mobile-left">
+                                    <div class="wpb_wrapper">
+                                        <p><a class="pagelink gray" href="{{asset("Home/")}}services.html">All services</a></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-4">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box  ionic  hover-box">
+                                    <i class="ion-md-umbrella ion-logo-umbrella"></i>
+                                    <div class="content-box">
+                                        <h4>Audit &amp; Assurance</h4>
+                                        <p>Senectus accumsan malesuada cursus dapibus sem primis cubilia, per potenti fermentu massa pulvinar turpis taciti, pellentesque.</p>
+                                        <a class="link-box pagelink" href="{{asset("Home/")}}service-detail.html" target="_self">Read more</a> </div>
+                                </div>
+
+                                <div class="empty_space_30"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-4">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box  ionic  hover-box">
+                                    <i class="ion-md-cube ion-logo-cube"></i>
+                                    <div class="content-box">
+                                        <h4>Financial Consulting</h4>
+                                        <p>Justo luctus mus ultricies habitasse dictumst senectus habitant, primis erat mauris odio faucibus cras non interdum purus sociis.</p>
+                                        <a class="link-box pagelink" href="{{asset("Home/")}}service-detail.html" target="_self">Read more</a> </div>
+                                </div>
+
+                                <div class="empty_space_30"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-4">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box  ionic  hover-box">
+                                    <i class="ion-md-podium ion-logo-podium"></i>
+                                    <div class="content-box">
+                                        <h4>Trades &amp; Stocks</h4>
+                                        <p>Risus aenean ultricies integer purus sociis luctus tristique, sodales fusce ante maecenas massa cum est, ligula hac cursus.</p>
+                                        <a class="link-box pagelink" href="{{asset("Home/")}}service-detail.html" target="_self">Read more</a> </div>
+                                </div>
+
+                                <div class="empty_space_30"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-4">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box  ionic  hover-box">
+                                    <i class="ion-md-list-box ion-logo-list-box"></i>
+                                    <div class="content-box">
+                                        <h4>Strategic Planning</h4>
+                                        <p>Mus leo mauris nec erat ullamcorper orci nascetur, est faucibus auctor natoque tempus eu, eros condimentum et taciti rhoncus.</p>
+                                        <a class="link-box pagelink" href="{{asset("Home/")}}service-detail.html" target="_self">Read more</a> </div>
+                                </div>
+
+                                <div class="empty_space_30 lg-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-4">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box  ionic  hover-box">
+                                    <i class="ion-md-cash ion-logo-cash"></i>
+                                    <div class="content-box">
+                                        <h4>Financial Projections</h4>
+                                        <p>Varius scelerisque tristique condimentum habitant dui euismod auctor lacinia maecenas cubilia eleifend erat, purus malesuada.</p>
+                                        <a class="link-box pagelink" href="{{asset("Home/")}}service-detail.html" target="_self">Read more</a> </div>
+                                </div>
+
+                                <div class="empty_space_30 lg-hidden md-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6 col-md-4">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="service-box icon-box  ionic  hover-box">
+                                    <i class="ion-md-wallet ion-logo-wallet"></i>
+                                    <div class="content-box">
+                                        <h4>Bonds &amp; Commodities</h4>
+                                        <p>Dis vel quam partur+ient et molestie at morbi vehicula mus phasellussenectus congue lacinia pulvinar turpis taciti, pellentesque.</p>
+                                        <a class="link-box pagelink" href="{{asset("Home/")}}service-detail.html" target="_self">Read more</a> </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wpb_row row-fluid section-padd-top bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column column_container col-sm-12 col-md-9">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="section-head ">
+                                    <h6><span>Our Projects</span></h6>
+                                    <h2 class="section-title">We are the leaders</h2>
+                                </div>
+
+                                <div class="empty_space_30 md-hidden sm-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-12 col-md-3">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element text-right mobile-left">
+                                    <div class="wpb_wrapper">
+                                        <p><a class="pagelink gray" href="{{asset("Home/")}}projects.html">All projects</a></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wpb_row row-fluid section-padd-bot row-has-fill row-full-width row-no-padding bg-light">
+            <div class="row">
+                <div class="wpb_column column_container col-sm-12">
+                    <div class="column-inner">
+                        <div class="wpb_wrapper">
+                            <div class="project-list-2">
+                                <div class="project-slider-2 projects" data-show="1" data-auto="" data-dot="true">
+
+                                    <div class="col-md-12">
+                                        <div class="project-item">
+
+                                            <div class="slide-img"><img src="{{asset("Home/")}}https://via.placeholder.com/1170x550" alt=""></div>
+
+                                            <div class="inner row">
+                                                <div class="col-md-3">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/156x29" alt="logo"> Contract Project: May 22, 2017
+                                                    <div class="gaps lg-hidden"></div>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <h4><a href="{{asset("Home/")}}project-detail.html">Financial Report 2019</a></h4>
+                                                    <p>Fames integer pretium commodo sed orci magnis euismod a, fusce felis leo habitant ridiculus auctor nisl id, cras nisi porta mus enim dapibus aenean.</p>
+                                                    <a class="pagelink gray" href="{{asset("Home/")}}project-detail.html">View details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="project-item">
+
+                                            <div class="slide-img"><img src="{{asset("Home/")}}https://via.placeholder.com/1170x550" alt=""></div>
+
+                                            <div class="inner row">
+                                                <div class="col-md-3">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/156x29" alt="logo"> Contract Project: November 15, 2018
+                                                    <div class="gaps lg-hidden"></div>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <h4><a href="{{asset("Home/")}}project-detail.html">Business Growth Solutions</a></h4>
+                                                    <p>Fames integer pretium commodo sed orci magnis euismod a, fusce felis leo habitant ridiculus auctor nisl id, cras nisi porta mus enim dapibus aenean.</p>
+                                                    <a class="pagelink gray" href="{{asset("Home/")}}project-detail.html">View details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="project-item">
+
+                                            <div class="slide-img"><img src="{{asset("Home/")}}https://via.placeholder.com/1170x550" alt=""></div>
+
+                                            <div class="inner row">
+                                                <div class="col-md-3">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/156x29" alt="logo"> Contract Project: September 14, 2017
+                                                    <div class="gaps lg-hidden"></div>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <h4><a href="{{asset("Home/")}}project-detail.html">MO Insurance Finance</a></h4>
+                                                    <p>Fames integer pretium commodo sed orci magnis euismod a, fusce felis leo habitant ridiculus auctor nisl id, cras nisi porta mus enim dapibus aenean.</p>
+                                                    <a class="pagelink gray" href="{{asset("Home/")}}project-detail.html">View details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="project-item">
+
+                                            <div class="slide-img"><img src="{{asset("Home/")}}https://via.placeholder.com/1170x550" alt=""></div>
+
+                                            <div class="inner row">
+                                                <div class="col-md-3">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/156x29" alt="logo"> Contract Project: April 24, 2016
+                                                    <div class="gaps lg-hidden"></div>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <h4><a href="{{asset("Home/")}}project-detail.html">Enterprise Loan 2016</a></h4>
+                                                    <p>Fames integer pretium commodo sed orci magnis euismod a, fusce felis leo habitant ridiculus auctor nisl id, cras nisi porta mus enim dapibus aenean.</p>
+                                                    <a class="pagelink gray" href="{{asset("Home/")}}project-detail.html">View details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="container">
+                                    <div class="arrows-slick">
+                                        <button type="button" class="btn-left slick-arrow prev-nav"><i class="fa fa-angle-left"></i></button>
+                                        <button type="button" class="btn-right slick-arrow next-nav"><i class="fa fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wpb_row row-fluid section-padd bg-second row-has-fill">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column column_container col-sm-6">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <h2 class="custom_heading text-light">Request a Free<br>Call Back</h2>
+                                <div class="wpb_text_column wpb_content_element  text-light">
+                                    <div class="wpb_wrapper">
+                                        <p>Provide discussion information and we’ll get back to
+                                            <br> you as soon as possible</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-6">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div role="form" class="wpcf7" id="wpcf7-f1626-p1530-o1" lang="en-US" dir="ltr">
+                                    <div class="screen-reader-response"></div>
+                                    <form action="" method="post" class="wpcf7-form">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                            	<span class="wpcf7-form-control-wrap your-name">
+	                                            	<input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required="" aria-invalid="false" placeholder="Your Name">
+	                                            </span>
+                                            </div>
+                                            <div class="col-md-6">
+                                            	<span class="wpcf7-form-control-wrap your-service">
+                                            		<select name="your-service" class="wpcf7-form-control wpcf7-select" aria-invalid="false">
+                                            			<option value="Audit &amp; Assurance">Audit &amp; Assurance</option>
+                                            			<option value="Financial Consulting">Financial Consulting</option>
+                                            			<option value="Trades &amp; Stocks">Trades &amp; Stocks</option>
+                                            			<option value="Strategic Planning">Strategic Planning</option>
+                                            			<option value="Financial Projections">Financial Projections</option>
+                                            		</select>
+                                            	</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                            	<span class="wpcf7-form-control-wrap your-email">
+                                            		<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required="" placeholder="Email Address">
+                                            	</span>
+                                            </div>
+                                            <div class="col-md-6">
+                                            	<span class="wpcf7-form-control-wrap your-phone">
+                                            		<input type="tel" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" placeholder="Phone Number">
+                                            	</span>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            <input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit btn">
+                                        </p>
+                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wpb_row row-fluid section-padd bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column column_container col-sm-12 col-md-9">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="section-head ">
+                                    <h6><span>our blog</span></h6>
+                                    <h2 class="section-title">Our latest news</h2>
+                                </div>
+
+                                <div class="empty_space_30 md-hidden sm-hidden"><span class="empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-12 col-md-3">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element text-right mobile-left">
+                                    <div class="wpb_wrapper">
+                                        <p><a class="pagelink gray" href="{{asset("Home/")}}blog.html">View all posts</a></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column column_container col-sm-12">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="news-slider posts-grid row" data-show="3" data-auto="true">
+
+                                    <div>
+                                        <article class="news-item content-area">
+                                            <div class="inner-item radius-top">
+                                                <div class="thumb-image">
+                                                    <a href="{{asset("Home/")}}post.html">
+                                                        <img src="{{asset("Home/")}}https://via.placeholder.com/770x350" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="inner-post radius-bottom">
+                                                    <div class="entry-meta">
+										                <span class="posted-on">
+										                	<time class="entry-date">September 11, 2017</time>
+										                </span>
+                                                        <span class="posted-in">
+										                	<a href="{{asset("Home/")}}#">Consulting</a>
+										                </span>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="{{asset("Home/")}}post.html">Solution financial for good startup</a>
+                                                    </h4>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipiscing elit ad, tincidunt senectus felis platea natoque mattis....
+                                                    </p>
+                                                    <a class="post-link" href="{{asset("Home/")}}post.html">Read more</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div>
+                                        <article class="news-item content-area">
+                                            <div class="inner-item radius-top">
+                                                <div class="thumb-image">
+                                                    <a href="{{asset("Home/")}}post.html">
+                                                        <img src="{{asset("Home/")}}https://via.placeholder.com/770x350" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="inner-post radius-bottom">
+                                                    <div class="entry-meta">
+										                <span class="posted-on">
+										                	<time class="entry-date">September 11, 2017</time>
+										                </span>
+                                                        <span class="posted-in">
+										                	<a href="{{asset("Home/")}}#">Consulting</a>
+										                </span>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="{{asset("Home/")}}post.html">Why Tech Should Behave  More Like Finance</a>
+                                                    </h4>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipiscing elit ad, tincidunt senectus felis platea natoque mattis....
+                                                    </p>
+                                                    <a class="post-link" href="{{asset("Home/")}}post.html">Read more</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div>
+                                        <article class="news-item content-area">
+                                            <div class="inner-item radius-top">
+                                                <div class="thumb-image">
+                                                    <a href="{{asset("Home/")}}post.html">
+                                                        <img src="{{asset("Home/")}}https://via.placeholder.com/770x350" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="inner-post radius-bottom">
+                                                    <div class="entry-meta">
+										                <span class="posted-on">
+										                	<time class="entry-date">September 11, 2017</time>
+										                </span>
+                                                        <span class="posted-in">
+										                	<a href="{{asset("Home/")}}#">Consulting</a>
+										                </span>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="{{asset("Home/")}}post.html">Cutting Your Restaurant’s Operations Costs</a>
+                                                    </h4>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipiscing elit ad, tincidunt senectus felis platea natoque mattis....
+                                                    </p>
+                                                    <a class="post-link" href="{{asset("Home/")}}post.html">Read more</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div>
+                                        <article class="news-item content-area">
+                                            <div class="inner-item radius-top">
+                                                <div class="thumb-image">
+                                                    <a href="{{asset("Home/")}}post.html">
+                                                        <img src="{{asset("Home/")}}https://via.placeholder.com/770x350" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="inner-post radius-bottom">
+                                                    <div class="entry-meta">
+										                <span class="posted-on">
+										                	<time class="entry-date">September 11, 2017</time>
+										                </span>
+                                                        <span class="posted-in">
+										                	<a href="{{asset("Home/")}}#">Consulting</a>
+										                </span>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="{{asset("Home/")}}post.html">Solution financial for good startup</a>
+                                                    </h4>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipiscing elit ad, tincidunt senectus felis platea natoque mattis....
+                                                    </p>
+                                                    <a class="post-link" href="{{asset("Home/")}}post.html">Read more</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div>
+                                        <article class="news-item content-area">
+                                            <div class="inner-item radius-top">
+                                                <div class="thumb-image">
+                                                    <a href="{{asset("Home/")}}post.html">
+                                                        <img src="{{asset("Home/")}}https://via.placeholder.com/770x350" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="inner-post radius-bottom">
+                                                    <div class="entry-meta">
+										                <span class="posted-on">
+										                	<time class="entry-date">September 11, 2017</time>
+										                </span>
+                                                        <span class="posted-in">
+										                	<a href="{{asset("Home/")}}#">Consulting</a>
+										                </span>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="{{asset("Home/")}}post.html">Cutting Your Restaurant’s Operations Costs</a>
+                                                    </h4>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipiscing elit ad, tincidunt senectus felis platea natoque mattis....
+                                                    </p>
+                                                    <a class="post-link" href="{{asset("Home/")}}post.html">Read more</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div>
+                                        <article class="news-item content-area">
+                                            <div class="inner-item radius-top">
+                                                <div class="thumb-image">
+                                                    <a href="{{asset("Home/")}}post.html">
+                                                        <img src="{{asset("Home/")}}https://via.placeholder.com/770x350" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="inner-post radius-bottom">
+                                                    <div class="entry-meta">
+										                <span class="posted-on">
+										                	<time class="entry-date">September 11, 2017</time>
+										                </span>
+                                                        <span class="posted-in">
+										                	<a href="{{asset("Home/")}}#">Consulting</a>
+										                </span>
+                                                    </div>
+                                                    <h4 class="entry-title">
+                                                        <a href="{{asset("Home/")}}post.html">Why Tech Should Behave  More Like Finance</a>
+                                                    </h4>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipiscing elit ad, tincidunt senectus felis platea natoque mattis....
+                                                    </p>
+                                                    <a class="post-link" href="{{asset("Home/")}}post.html">Read more</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wpb_row row-fluid section-padd">
+            <div class="container">
+                <div class="row">
+                    <div class="wpb_column column_container col-sm-12">
+                        <div class="column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="section-head ">
+                                    <h6><span>testimonial &amp; partner</span></h6>
+                                    <h2 class="section-title">What our clients says?</h2>
+                                </div>
+
+                                <div class="empty_space_30"><span class="empty_space_inner"></span></div>
+
+                                <div class="testi-slider" data-show="3" data-arrow="true">
+
+                                    <div>
+                                        <div class="testi-item box-shadow-hover">
+                                            <div class="testi-head">
+                                                <img width="50" height="50" src="{{asset("Home/")}}https://via.placeholder.com/50" class="client-img" alt="">
+                                                <h5>Quynh Anh<span class="font12 normal">from Hanoi</span></h5>
+                                            </div>
+                                            <div class="line"></div>
+                                            <div class="testi-content">
+                                                <i class="ion-md-quote"></i>
+                                                <img src="{{asset("Home/")}}images/stars.png" alt="">
+                                                <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. Thank you !</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="testi-item box-shadow-hover">
+                                            <div class="testi-head">
+                                                <img width="50" height="50" src="{{asset("Home/")}}https://via.placeholder.com/50" class="client-img" alt="">
+                                                <h5>Nora Roberts<span class="font12 normal">from Paris</span></h5>
+                                            </div>
+                                            <div class="line"></div>
+                                            <div class="testi-content">
+                                                <i class="ion-md-quote"></i>
+                                                <img width="86" height="12" src="{{asset("Home/")}}images/stars.png" class="attachment-full size-full" alt="">
+                                                <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="testi-item box-shadow-hover">
+                                            <div class="testi-head">
+                                                <img width="50" height="50" src="{{asset("Home/")}}https://via.placeholder.com/50" class="client-img" alt="">
+                                                <h5>John Doe<span class="font12 normal">from Beijing</span></h5>
+                                            </div>
+                                            <div class="line"></div>
+                                            <div class="testi-content">
+                                                <i class="ion-md-quote"></i>
+                                                <img width="86" height="12" src="{{asset("Home/")}}images/stars.png" alt="">
+                                                <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="testi-item box-shadow-hover">
+                                            <div class="testi-head">
+                                                <img width="50" height="50" src="{{asset("Home/")}}https://via.placeholder.com/50" class="client-img" alt="">
+                                                <h5>Quynh Anh<span class="font12 normal">from Hanoi</span></h5>
+                                            </div>
+                                            <div class="line"></div>
+                                            <div class="testi-content">
+                                                <i class="ion-md-quote"></i>
+                                                <img src="{{asset("Home/")}}images/stars.png" alt="">
+                                                <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. Thank you !</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="testi-item box-shadow-hover">
+                                            <div class="testi-head">
+                                                <img width="50" height="50" src="{{asset("Home/")}}https://via.placeholder.com/50" class="client-img" alt="">
+                                                <h5>Nora Roberts<span class="font12 normal">from Paris</span></h5>
+                                            </div>
+                                            <div class="line"></div>
+                                            <div class="testi-content">
+                                                <i class="ion-md-quote"></i>
+                                                <img width="86" height="12" src="{{asset("Home/")}}images/stars.png" class="attachment-full size-full" alt="">
+                                                <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="testi-item box-shadow-hover">
+                                            <div class="testi-head">
+                                                <img width="50" height="50" src="{{asset("Home/")}}https://via.placeholder.com/50" class="client-img" alt="">
+                                                <h5>John Doe<span class="font12 normal">from Beijing</span></h5>
+                                            </div>
+                                            <div class="line"></div>
+                                            <div class="testi-content">
+                                                <i class="ion-md-quote"></i>
+                                                <img width="86" height="12" src="{{asset("Home/")}}images/stars.png" alt="">
+                                                <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="empty_space_80"><span class="empty_space_inner"></span></div>
+
+                                <div class="partner-slider image-carousel text-center" data-show="5" data-arrow="false">
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="partner-item text-center clearfix">
+                                            <div class="inner">
+                                                <div class="thumb">
+                                                    <img src="{{asset("Home/")}}https://via.placeholder.com/150x30" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- #content -->
+
+    <footer id="site-footer" class="site-footer bg-second">
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6">
+                        <div id="media_image-1" class="widget widget_media_image">
+                            <a href="{{asset("Home/")}}index.html"><img src="{{asset("Home/")}}images/logo-white.svg" alt=""></a>
+                        </div>
+                        <div id="custom_html-1" class="widget_text widget widget_custom_html">
+                            <div class="textwidget custom-html-widget">
+                                <p>Sorem ipsum dolor sit amet consectetur adipiscing elit dapibus non apte magna ad suspendisse nec pulvi.</p>
+
+                                <p>
+                                    <a href="{{asset("Home/")}}about.html" class="pagelink gray">About us</a>
+                                </p>
+                                <div class="ot-socials bg-white">
+                                    <a target="_blank" href="{{asset("Home/")}}#" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+                                    <a target="_blank" href="{{asset("Home/")}}#" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="{{asset("Home/")}}#" rel="noopener noreferrer"><i class="fa fa-pinterest-p"></i></a>
+                                    <a target="_blank" href="{{asset("Home/")}}#" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col-lg-3 -->
+
+                    <div class="col-md-3 col-sm-6">
+                        <section id="custom_html-2" class="widget_text widget widget_custom_html padding-left">
+                            <h4 class="widget-title">Services</h4>
+                            <div class="textwidget custom-html-widget">
+                                <ul class="padd-left">
+                                    <li><a href="{{asset("Home/")}}service-detail.html">Audit &amp; Assurance</a></li>
+                                    <li><a href="{{asset("Home/")}}service-detail.html">Bonds &amp; Commodities</a></li>
+                                    <li><a href="{{asset("Home/")}}service-detail.html">Financial Consulting</a></li>
+                                    <li><a href="{{asset("Home/")}}service-detail.html">Trades &amp; Stocks</a></li>
+                                    <li><a href="{{asset("Home/")}}service-detail.html">Financial Projections</a></li>
+                                    <li><a href="{{asset("Home/")}}service-detail.html">Strategic Planning</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- end col-lg-3 -->
+
+                    <div class="col-md-3 col-sm-6">
+                        <section id="custom_html-3" class="widget_text widget widget_custom_html padding-left">
+                            <h4 class="widget-title">Company</h4>
+                            <div class="textwidget custom-html-widget">
+                                <ul class="padd-left">
+                                    <li><a href="{{asset("Home/")}}index.html">Home</a></li>
+                                    <li><a href="{{asset("Home/")}}about.html">About</a></li>
+                                    <li><a href="{{asset("Home/")}}services.html">Features</a></li>
+                                    <li><a href="{{asset("Home/")}}services.html">Services</a></li>
+                                    <li><a href="{{asset("Home/")}}blog.html">Blog</a></li>
+                                    <li><a href="{{asset("Home/")}}contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- end col-lg-3 -->
+
+                    <div class="col-md-3 col-sm-6">
+                        <section id="mc4wp_form_widget-1" class="widget widget_mc4wp_form_widget">
+                            <h4 class="widget-title">Subscribe</h4>
+                            <!-- Mailchimp for WordPress v4.5.2 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1696" method="post" data-id="1696" data-name="Consultax Subscribe">
+                                <div class="mc4wp-form-fields">
+                                    <div class="footer-sub">
+                                        <input type="text" name="NAME" placeholder="Name" required="">
+                                        <input type="email" name="EMAIL" placeholder="Email Address" required="">
+                                        <input type="submit" class="btn" value="Subscribe">
+                                    </div>
+                                </div>
+                                <input type="hidden" name="_mc4wp_timestamp" value="1560227031">
+                                <input type="hidden" name="_mc4wp_form_id" value="1696">
+                                <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+                                <div class="mc4wp-response"></div>
                             </form>
-                        </div><!-- End call back form -->
+                            <!-- / Mailchimp for WordPress Plugin -->
+                        </section>
+                    </div>
+                    <!-- end col-lg-3 -->
+
+                </div>
+            </div>
+        </div>
+        <!-- .main-footer -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-copyright">
+                            © 2019 Finacial Consulting Template by <a target="_blank" href="{{asset("Home/")}}http://themeforest.net/user/ThemeModern/portfolio">ThemeModern</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-nav text-right mobile-center">
+                            <ul id="footer-menu" class="none-style">
+                                <li><a href="{{asset("Home/")}}#">Terms and Conditions</a></li>
+                                <li><a href="{{asset("Home/")}}#">Privacy Policy</a></li>
+                                <li><a href="{{asset("Home/")}}#">FAQs</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div><!-- End row -->
-        </div><!-- End container -->
-    </section><!-- End Section -->
-
-    <!-- Component Our Experts Owl -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="title">Our Experts</h2>
-                    <div class="customNavigation">
-                        <a class="btn prev-experts"><i class="fa fa-angle-left"></i></a>
-                        <a class="btn next-experts"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                    </div><!-- End owl custom button -->
-                    <div class="padding-bottom-15"></div>
-                    <div id="owl-experts" class="owl-carousel owl-theme owl-experts clearfix">
-                        <div class="item item-experts text-center">
-                            <div class="expert-img-container">
-                                <div class="avatar">
-                                    <img src="images/Experts/1.jpg" class="img-responsive" alt="Image">
-                                </div>
-                                <a href="https://www.linkedin.com/" class="in-experts">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </div> <!-- end expert img container -->
-
-
-                            <div class="clearfix"></div>
-                            <h4 class="">Peter Hart</h4>
-                            <p class="job-experts">Chartered Financial Advisor</p>
-                        </div><!-- end item -->
-                        <div class="item item-experts text-center">
-                            <div class="expert-img-container">
-                                <a href="https://www.linkedin.com/" class="in-experts">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <div class="avatar">
-                                    <img src="images/Experts/2.jpg" class="img-responsive" alt="Image">
-                                </div>
-                            </div> <!-- end expert img container -->
-                            <div class="clearfix"></div>
-                            <h4 class="">Betty Lane</h4>
-                            <p class="job-experts">Chartered Financial Advisor</p>
-                        </div><!-- end item -->
-                        <div class="item item-experts text-center">
-                            <div class="expert-img-container">
-                                <a href="https://www.linkedin.com/" class="in-experts">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <div class="avatar">
-                                    <img src="images/Experts/3.jpg" class="img-responsive" alt="Image">
-                                </div>
-                            </div> <!-- end expert img container -->
-                            <div class="clearfix"></div>
-                            <h4 class="">Richard Pierce</h4>
-                            <p class="job-experts">Certified Public Accountant</p>
-                        </div><!-- end item -->
-                        <div class="item item-experts text-center">
-                            <div class="expert-img-container">
-                                <a href="https://www.linkedin.com/" class="in-experts">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <div class="avatar">
-                                    <img src="images/Experts/4.jpg" class="img-responsive" alt="Image">
-                                </div>
-                            </div> <!-- end expert img container -->
-                            <div class="clearfix"></div>
-                            <h4 class="">Janice Rose</h4>
-                            <p class="job-experts">Registered Tax Preparer</p>
-                        </div><!-- end item -->
-                        <div class="item item-experts text-center">
-                            <div class="expert-img-container">
-                                <a href="https://www.linkedin.com/" class="in-experts">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <div class="avatar">
-                                    <img src="images/Experts/5.jpg" class="img-responsive" alt="Image">
-                                </div>
-                            </div> <!-- end expert img container -->
-                            <div class="clearfix"></div>
-                            <h4 class="">Peter Hart</h4>
-                            <p class="job-experts">Chartered Financial Advisor</p>
-                        </div><!-- end item -->
-                        <div class="item item-experts text-center">
-                            <div class="expert-img-container">
-                                <a href="https://www.linkedin.com/" class="in-experts">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <div class="avatar">
-                                    <img src="images/Experts/6.jpg" class="img-responsive" alt="Image">
-                                </div>
-                            </div> <!-- end expert img container -->
-                            <div class="clearfix"></div>
-                            <h4 class="">Betty Lane</h4>
-                            <p class="job-experts">Chartered Financial Advisor</p>
-                        </div><!-- end item -->
-                        <div class="item item-experts text-center">
-                            <div class="expert-img-container">
-                                <a href="https://www.linkedin.com/" class="in-experts">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <div class="avatar">
-                                    <img src="images/Experts/7.jpg" class="img-responsive" alt="Image">
-                                </div>
-                            </div> <!-- end expert img container -->
-                            <div class="clearfix"></div>
-                            <h4 class="">Richard Pierce</h4>
-                            <p class="job-experts">Certified Public Accountant</p>
-                        </div><!-- end item -->
-                        <div class="item item-experts text-center">
-                            <div class="expert-img-container">
-                                <a href="https://www.linkedin.com/" class="in-experts">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <div class="avatar">
-                                    <img src="images/Experts/8.jpg" class="img-responsive" alt="Image">
-                                </div>
-                            </div> <!-- end expert img container -->
-                            <div class="clearfix"></div>
-                            <h4 class="">Janice Rose</h4>
-                            <p class="job-experts">Registered Tax Preparer</p>
-                        </div><!-- end item -->
-                    </div> <!-- End owl container -->
-                </div> <!-- End col -->
-            </div><!-- End row -->
+            </div>
         </div>
-    </section><!-- End container -->
-
-    <!-- Section Text 3 Column-->
-    <section class="bg-grey">
-        <div class="container">
-            <div class="row">
-                <div class="three-column-text">
-                    <h2 class="title ">We Makes It Easy</h2>
-                    <div class="col-md-4">
-                        <div class="make-easy-item">
-                            <h4>Whatever</h4>
-                            <p>Maecenas et varius mauris, in viverra urna. Praesent eu lacinia lacus. Nam ac velit vitae justo congue dignissim dignissim vitae nulla. Donec quis leo lorem. Morbi bibendum vehicula nibh id sodales. Vivamus in vestibulum magna, ut lobortis neque. </p>
-                        </div>
-                    </div><!-- end col -->
-                    <div class="col-md-4">
-                        <div class="make-easy-item">
-                            <h4>Wherever</h4>
-                            <p>In placerat sapien urna, quis faucibus metus lacinia commodo. Integer feugiat ullamcorper risus, sed efficitur velit dignissim at. Donec tincidunt elit a neque venenatis varius. Phasellus eget tempor est. Vivamus ut cursus ligula. </p>
-                        </div>
-                    </div><!-- end col -->
-                    <div class="col-md-4">
-                        <div class="make-easy-item">
-                            <h4>Whenever</h4>
-                            <p>Cras non odio tempus, euismod eros eget, venenatis ligula. Nullam augue sem, tincidunt sed elit ac, mollis eleifend justo. Aliquam non magna ac risus lacinia lacinia quis eu justo. Praesent a tempus ante. Etiam ac turpis finibus, aliquam augue quis, feugiat est.</p>
-                        </div>
-                    </div><!-- end col -->
-                </div> <!-- End 3 column text -->
-            </div><!-- End row -->
-        </div><!-- End Container -->
-    </section><!-- End Section -->
-
-    <!-- Component Our Partners Owl -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="title">Our Partners</h2>
-                    <div class="customNavigation">
-                        <a class="btn prev-partners"><i class="fa fa-angle-left"></i></a>
-                        <a class="btn next-partners"><i class="fa fa-angle-right"></i></a>
-                    </div><!-- End owl button -->
-
-                    <div id="owl-partners" class="owl-carousel owl-theme owl-partners clearfix">
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/1.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/2.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/3.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/4.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/5.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/1.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/2.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/3.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/4.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="images/Partner/5.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </div>
-                    </div>
-
-                </div><!-- End row partners -->
-            </div><!-- End Row -->
-        </div>
-    </section><!-- End container -->
-    <!-- Footer -->
-    <footer class=" bg-dark footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-row">
-
-                    <div class="footer-col-1">
-                        <a href="index.html"><img src="images/Footer/logo-footer.png" class="img-responsive" alt="Image"></a>
-                        <ul class="clearfix">
-                            <li><a href="services-detail.html">Finacial Planning</a></li>
-                            <li><a href="services-detail.html">Insurance Consulting</a></li>
-                            <li><a href="services-detail.html">Investments Management</a></li>
-                            <li><a href="services-detail.html">Retirement Strategies</a></li>
-                            <li><a href="services-detail.html">Taxes Planning</a></li>
-                            <li><a href="services-detail.html">Business Loan</a></li>
-                        </ul>
-                    </div>
-
-
-                    <div class="footer-col-2">
-                        <h3 class="text-white">Contact us</h3>
-                        <div class="border-2-side">
-                            <p>Address: 8th floor, 379 Hudson St, New York, NY 10018</p>
-                            <p><span >Phone: (+1) 96 716 6879</span></p>
-                            <p><span >Email: contact@site.com</span></p>
-                        </div>
-                    </div>
-
-
-                    <div class="footer-col-3">
-                        <h3 class="text-white">Follow us</h3>
-                        <ul class="social social-footer">
-                            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-
-                </div> <!-- End footer row -->
-                <div class="col-md-12 footer-link">
-                    <p>Copyright © 2016 Designed by AuThemes. All rights reserved.</p>
-                    <ul>
-                        <li><a href="about.html">About </a></li>
-                        <li><a href="contact.html">Contact Us </a></li>
-                        <li><a href="#">Term & Conditions</a></li>
-                        <li><a href="#">Privacy Policy </a></li>
-                        <li><a href="#">Sites Map</a></li>
-                    </ul>
-                </div>
-            </div><!-- End Row -->
-
-        </div><!-- End container -->
-    </footer><!-- End  -->
-
-</div><!-- End Page -->
-<!-- Loading Lazy Images -->
-<div id=jSplash>
-    <div class="sk-folding-cube">
-        <div class="sk-cube1 sk-cube"></div>
-        <div class="sk-cube2 sk-cube"></div>
-        <div class="sk-cube4 sk-cube"></div>
-        <div class="sk-cube3 sk-cube"></div>
-    </div>
+        <!-- .copyright-footer -->
+        <a id="back-to-top" href="{{asset("Home/")}}#" class="show"></a>
+    </footer>
+    <!-- #site-footer -->
 </div>
-<div id="overlay"></div>
-<!-- Overlay Mobile Menu Click -->
-<a id="to-the-top" style="display: block;"><i class="fa fa-angle-up"></i></a> <!-- Back To Top -->
-<!-- SCRIPT
-================================================== -->
-<script src="js/vendor/jquery.min.js"></script>
-<script src="js/plugins/jpreLoader.js"></script>
-<script src="js/plugins/jquery.waypoints.min.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/plugins/easing.js"></script>
-<script src="js/plugins/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/plugins/fancySelect.js"></script>
-<script src="js/plugins/custom.js"></script>
-<!-- Switcher
-================================================== -->
-<script src="switcher/demo.js"></script>
-<!-- Counter Up
-================================================== -->
 
-<script src="js/plugins/jquery.animateNumber.min.js"></script>
-<script src="js/plugins/custom-counterup.js"></script>
-<!-- Mobile Menu
-================================================== -->
-<script src="js/plugins/jquery.mobile-menu.js"></script>
-<script src="js/plugins/sticky.min.js"></script>
-<!-- Revo Lib
-================================================== -->
-<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<!-- Custom Revoslider -->
-<script src="js/plugins/revoslider-custom.js"></script>
+<script type='text/javascript' src='{{asset("Home/")}}js/jquery.min.js'></script>
+<script type='text/javascript' src='{{asset("Home/")}}js/countto.min.js'></script>
+<script type='text/javascript' src='{{asset("Home/")}}js/jquery.isotope.min.js'></script>
+<script type='text/javascript' src='{{asset("Home/")}}js/royal_preloader.min.js'></script>
+<script type='text/javascript' src='{{asset("Home/")}}js/slick.min.js'></script>
+<script type='text/javascript' src='{{asset("Home/")}}js/scripts.js'></script>
+<script type='text/javascript' src='{{asset("Home/")}}js/header-footer.js'></script>
 
-
-<!-- Initializing the isotope
-================================================== -->
-<script src="js/plugins/isotope.pkgd.min.js"></script>
-<script src="js/plugins/custom-isotope.js"></script>
-<!-- Initializing Owl Carousel
-================================================== -->
-<script src="js/plugins/owl.carousel.js"></script>
-<script src="js/plugins/custom-owl.js"></script>
-
-
-
-
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+<!-- RS5.0 Extensions Files -->
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="{{asset("Home/")}}revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script>
+    jQuery(document).ready(function () {
+        jQuery("#revolution-slider").revolution({
+            sliderType: "standard",
+            delay: 7500,
+            navigation: {
+                arrows: { enable: true }
+            },
+            spinner: "off",
+            gridwidth: 1170,
+            gridheight: 700,
+            disableProgressBar: "on",
+            responsiveLevels:[1920,1229,991,480],gridwidth:[1170,970,750,450],gridheight:[700,700,700,700]
+        });
+    });
+</script>
 </body>
 </html>

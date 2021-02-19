@@ -1,430 +1,510 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]>
-<!-->
-<html class="no-js" lang="en"><!--<![endif]-->
+<html>
 <head>
-
-    <!-- Basic Page Needs
-  ================================================== -->
-    <meta charset="utf-8">
-    <title>Finance</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Mobile Specific Metas
-  ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- Font
-  ================================================== -->
-  
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- CSS
-  ================================================== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-  <!-- OWL CAROUSEL
-  ================================================== --> 
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.default.css">
-  <!-- SCROLL BAR MOBILE MENU
-  ================================================== --> 
-  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
-  <!-- MAIN STYLE
-  ================================================== -->
-  <link rel="stylesheet" href="style.css"/>
-  <!-- color scheme -->
-  <link rel="stylesheet" href="switcher/demo.css" type="text/css">
-  <link rel="stylesheet" href="switcher/colors/" type="text/css" id="colors">   
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-  <!-- Favicons
-  ================================================== -->
-  <link rel="shortcut icon" href="favicon.png">
+	<title>Consultax – Financial & Consulting HTML5 Template</title>
+	<link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" id="awesome-font-css" href="css/font-awesome.css" type="text/css" media="all">
+	<link rel="stylesheet" id="ionicon-font-css" href="css/ionicon.css" type="text/css" media="all">
+    <link rel="stylesheet" id="royal-preload-css" href="css/royal-preload.css" type="text/css" media="all">
+	<link rel="stylesheet" id="slick-slider-css" href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" id="slick-theme-css" href="css/slick-theme.css" type="text/css" media="all">
+	<link rel="stylesheet" id="consultax-style-css" href="style.css" type="text/css" media="all">
+
+	<link rel="shortcut icon" href="favicon.png">
 </head>
-<body>  
-    <div id="switcher">
-        <span class="custom-close"></span>
-        <span class="custom-show"></span>
 
-        <a href="#" class="ot-btn btn-rounded btn-hightlight-color block-btn">Buy Now</a>
+<body class="royal_preloader">
+	<div id="page" class="site">
+	    <header id="site-header" class="site-header mobile-header-blue header-style-1">
+	        <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12">
+	                        <!-- social icons -->
+	                        <ul class="social-list fleft">
+	                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+	                            </li>
+	                            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+	                            </li>
+	                            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+	                            </li>
+	                            <li><a href="#" target="_blank"><i class="fa fa-rss"></i></a>
+	                            </li>
+	                        </ul>
+	                        <!-- social icons close -->
+	                        <div class="topbar-text fright"> Opening Hours : Monday to Saturday - 8am to 9pm</div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- Top bar close -->
 
-        <div class="clearfix"></div>  
+	        <!-- Main header start -->
+	        <div class="main-header md-hidden sm-hidden">
+	            <div class="main-header-top">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-md-12">
+	                            <div class="col-wrap-table">
+	                                <div id="site-logo" class="site-logo col-media-left col-media-middle">
+	                                    <a href="index.html">
+	                                        <img class="logo-static" src="images/logo-white.svg" alt="Consultax">
+	                                        <img class="logo-scroll" src="images/logo-white.svg" alt="Consultax">
+	                                    </a>
+	                                </div>
+	                                <div class="col-media-body col-media-middle">
+	                                    <!-- contact info -->
+	                                    <ul class="info-list info_on_right_side fright">
+	                                        <li>
+	                                            <span>Address: <strong>121 King Street <br>Melbourne Victoria 3000 Australia</strong></span> </li>
+	                                        <li>
+	                                            <span>Free call: <strong class="font-size18">(917)  814 - 3527</strong></span> </li>
+	                                    </ul>
+	                                    <!-- contact info close -->
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="main-header-bottom">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-md-12">
+	                            <div class="header-mainnav">
 
-        <span class="sw-title">Layout Style</span>
-        <select name="switcher" id="tm-layout-switch">
-            <option value="wide" selected="selected">Wide</option>
-            <option value="boxed">Boxed</option>
-        </select>
-        <div class="clearfix spacing-10"></div>
+	                                <div class="search-cart-box fright">
+	                                    <div class="h-cart-btn fright"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
 
-        <span class="sw-title">Boxed Background</span>
-        <ul id="tm-boxed-bg">
-            <li class="bg1" data-value="01"></li>
-            <li class="bg2" data-value="02"></li>
-            <li class="bg3" data-value="03"></li>
-            <li class="bg4" data-value="04"></li>
-            <li class="bg5" data-value="05"></li>
-            <li class="bg6" data-value="06"></li>
-            <li class="bg7" data-value="07"></li>
-            <li class="bg8" data-value="08"></li>
-            <li class="bg9" data-value="09"></li>
-            <li class="bg10" data-value="10"></li>
-            <li class="bg11" data-value="11"></li>
-            <li class="bg12" data-value="12"></li>
-            <li class="bg13" data-value="13"></li>
-            <li class="bg14" data-value="14"></li>
-        </ul>
-        <div class="clearfix spacing-10"></div>
+	                                    <div class="toggle_search fright"><i class="fa fa-search" aria-hidden="true"></i></div>
+	                                    <div class="h-search-form-field">
+	                                        <form role="search" method="get" id="search-form" class="search-form" action="#">
+	                                            <input type="search" class="search-field" placeholder="Enter keyword..." value="" name="s">
+	                                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+	                                        </form>
+	                                    </div>
 
-        <span class="sw-title">Main Colors:</span>
-        <ul id="tm-color">
-            <li class="color11"></li>
-            <li class="color2"></li>
-            <li class="color3"></li>
-            <li class="color5"></li>
-            <li class="color8"></li>
-            <li class="color9"></li>
-        </ul>
-    </div>  
-    
-    <div id=jSplash>
-      <div class="sk-folding-cube">
-        <div class="sk-cube1 sk-cube"></div>
-        <div class="sk-cube2 sk-cube"></div>
-        <div class="sk-cube4 sk-cube"></div>
-        <div class="sk-cube3 sk-cube"></div>
-      </div>
-    </div>
-    <div id="overlay"></div>
-    <!-- Overlay Mobile Menu Click -->
-    <div class="mobile-menu-first">
-        <div id="mobile-menu-right" class="mobile-menu-dark">
-          <div class="mCustomScrollbar light" data-mcs-theme="minimal-dark">
-               <div class="header-mobile-menu hmm-v1">
-                  <a class="has-icon" href="tel:01128262789"><span class="lnr lnr-phone-handset icon-set-1 icon-xs"></span> <span class="sub-text-icon text-middle">0112-826-2789</span></a>
-                <a href=""  class="btn hightlight-btn btn-xs">Get A Quote</a>
-              </div> <!-- End header mobile menu -->
-              <ul>
-                  <li>
-                          <a href="index.html"><i class="icon-home"></i> Home</a>
-                          <ul>
-                               <li><a href="index.html">Home Page Verison 1</a></li>
-                                <li><a href="home_2.html">Home Page Verison 2</a></li>
-                                <li><a href="home_3.html">Home Page Verison 3</a></li>
-                                <li><a href="home_4.html">Home Page Verison 4</a></li>
-                                <li><a href="home_5.html">Home Page Verison 5</a></li>
-<li><a href="home_6.html">Home Page Verison 6</a></li>
-                          </ul>
-                  </li>                
-                 
-                  <li><a href="servicesList.html">Services</a>
-                      <ul>
-                          <li><a href="servicesList.html">Services Style 1</a></li>
-                          <li><a href="servicesList2.html">Services Style 2</a></li>
-                          <li><a href="services-detail.html">Services Details</a></li>
-                      </ul>
-                  </li>
+	                                </div>
+	                                <div id="site-navigation" class="main-navigation fleft">
+	                                    <ul id="primary-menu" class="menu">
+	                                        <li><a href="index.html">Home</a>
+	                                        </li>
+	                                        <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1731"><a href="#">Pages</a>
+	                                            <ul class="sub-menu">
+	                                                <li class="menu-item-1738"><a href="about.html">About Us</a></li>
+	                                                <li class="menu-item-1745"><a href="team.html">Our Team</a></li>
+	                                                <li class="menu-item-1742"><a href="how-it-work.html">How It Work</a></li>
+	                                                <li class="menu-item-1746"><a href="testimonials.html">Testimonials</a></li>
+	                                                <li class="menu-item-1757"><a href="services.html">Services Box</a></li>
+	                                                <li class="menu-item-1744"><a href="services-icon.html">Icon Box</a></li>
+	                                                <li class="menu-item-1740"><a href="career.html">Career</a></li>
+	                                            </ul>
+	                                        </li>
+	                                        <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1789"><a href="services.html">Services</a>
+	                                            <ul class="sub-menu">
+	                                                <li class="menu-item-1791"><a href="service-detail.html">Financial Consulting</a></li>
+	                                                <li class="menu-item-1758"><a href="service-detail.html">International Business</a></li>
+	                                                <li class="menu-item-1790"><a href="service-detail.html">Audit &amp; Assurance</a></li>
+	                                                <li class="menu-item-1760"><a href="service-detail.html">Taxes and Efficiency</a></li>
+	                                                <li class="menu-item-1761"><a href="service-detail.html">Bonds &amp; Commodities</a></li>
+	                                            </ul>
+	                                        </li>
+	                                        <li class="menu-item-has-children"><a href="projects.html">Cases Study</a>
+	                                            <ul class="sub-menu">
+	                                                <li><a href="projects.html">Cases Study 2 Columns</a></li>
+	                                                <li><a href="projects-2.html">Cases Study 3 Columns</a></li>
+	                                                
+	                                                <li><a href="project-detail.html">Cases Study Details</a></li>
+	                                            </ul>
+	                                        </li>
+	                                        <li class="menu-item-has-children"><a href="blog.html">Blog</a>
+	                                            <ul class="sub-menu">
+	                                                <li><a href="blog.html">Blog List</a></li>
+	                                                <li><a href="post.html">Blog Details</a></li>
+	                                            </ul>
+	                                        </li>
+	                                        <li><a href="contact.html">Contact</a></li>
+	                                    </ul>
+	                                </div>
+	                                <!-- #site-navigation -->
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
 
-                  <li><a href="testimonial.html">Testinmonials</a>
-                           
-                  </li>
-                  <li><a href="projectList.html">Projects</a>
-                     <ul>
-                        <li><a href="projectList.html">Project Grid</a></li>
-                        <li><a href="projectsDetail.html">Project Details</a></li>
-                    </ul>
-                  </li>
-                 <li><a href="blogList.html">News</a>
-                             <ul>
-                                <li><a href="blogList.html">Blog List</a></li>
-                                <li><a href="blogDetail.html">Blog Detail</a></li>                                    
-                            </ul>
-                        </li>
-                  <li><a href="#">Pages</a></li>
-                  <li><a href="about.html">About Us </a></li>
-                  <li><a href="contact.html">Contact Us </a></li>
-              </ul>
-              <div class="footer-mobile-menu fmm-v1">
-                  <ul class="social">
-                      <li class="facebook"><a href=""><i class="fa fa-facebook"></i></a></li>
-                      <li class="twitter"><a href=""><i class="fa fa-twitter"></i></a></li>
-                      <li class="google-plus"><a href=""><i class="fa fa-google-plus"></i></a></li>
-                      <li class="youtube"><a href=""><i class="fa fa-youtube-play"></i></a></li>
-                      <li class="linkedin"><a href=""><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
-                  <ul class="address-footer-mobile">
-                    
-                    <li><a href=""><span class="lnr lnr-map-marker"></span> 8th floor, 379 Hudson St, New York, NY 10018</a></li>
-                    <li><a href="tel:18001236879 "><span class="lnr lnr-smartphone"></span> 1-800-123-6879 </a></li>
-                    <li><a href="mailto:contact@finance.com"><span class="lnr lnr-envelope"></span> contact@finance.com</a></li>
-                    
-                  </ul>
-              </div><!-- End footer mobile menu -->
-          </div>
-        </div> <!-- /#rmm   -->
-    </div><!-- End Mobile Menu -->
-  <div id="page">
-    <div class="top-bar top-bar-dark">
-      <div class="container">
-        <div class="left-top-bar left-top-bar-long">
-              <p class="hidden-xs" ><span class="lnr lnr-map-marker large-lnr"></span> 8th floor, 379 Hudson St, New York, NY 10018</p>
-               <p class="hidden-xs"><span class="lnr lnr-smartphone large-lnr"></span> 1-800-123-6879 </p>
-                <p class="hidden-xs"><span class="lnr lnr-envelope large-lnr"></span> contact@finance.com</p>
-                <div class="popover-container visible-xs">
-                    <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover" data-placement="bottom" title="0112-826-2789" data-content="contact@site.com">
-                        <span class="lnr lnr-phone-handset"></span>
-                      </button>
-                       <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover" data-placement="bottom" title="8th floor, 379 Hudson St" data-content="New York, NY 10018">
-                        <span class="lnr lnr-map-marker"></span>
-                      </button>
-                      <button type="button" class="btn btn-popover popover-dark" data-container="body" data-toggle="popover" data-placement="bottom" title="07:30 am – 06:00 pm" data-content="Every Day">
-                        <span class="lnr lnr lnr-clock"></span>
-                      </button>
-                </div>
-        </div> <!-- End left top bar -->
-        <div class="right-top-bar">
-            <ul class="social">
-                <li class="facebook"><a href=""><i class="fa fa-facebook"></i></a></li>
-                <li class="twitter"><a href=""><i class="fa fa-twitter"></i></a></li>
-                <li class="google-plus"><a href=""><i class="fa fa-google-plus"></i></a></li>
-                <li class="youtube"><a href=""><i class="fa fa-youtube-play"></i></a></li>
-                <li class="linkedin"><a href=""><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-        </div><!-- End right top bar -->
-      </div> <!-- End container -->
-    </div> <!-- End top bar -->
-    
-    <header id="sticked-menu" class="header header-v5">
-      <div class="container">
-        <div class="logo">
-            <div class="mm-toggle visible-xs visible-sm">
-              <i class="fa-remove fa fa-bars"></i><span class="mm-label">Menu</span>
-            </div>
-            <a href="index.html"><img src="images/Header/logo.png" class="img-responsive" alt="Image"></a>
-        </div>
-        <nav class="navi-desktop-site hidden-sm hidden-xs">
-                  <ul class="navi-level-1 uppercase">
-                        <li class="has-sub"><a href="index.html">Home <i class="fa fa-angle-down"></i></a>
-                             <ul class="navi-level-2 ">
-                                <li><a href="index.html">Home Page Verison 1</a></li>
-                                <li><a href="home_2.html">Home Page Verison 2</a></li>
-                                <li><a href="home_3.html">Home Page Verison 3</a></li>
-                                <li><a href="home_4.html">Home Page Verison 4</a></li>
-                                <li><a href="home_5.html">Home Page Verison 5</a></li>
-<li><a href="home_6.html">Home Page Verison 6</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-sub"><a href="servicesList.html">Services <i class="fa fa-angle-down"></i></a>
-                            <ul class="navi-level-2">
-                                <li><a href="servicesList.html">Services Style 1</a></li>
-                                <li><a href="servicesList2.html">Services Style 2</a></li>
-                                <li><a href="services-detail.html">Services Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-sub"><a href="projectList.html">Projects  <i class="fa fa-angle-down"></i></a>
-                               <ul class="navi-level-2">
-                                    <li><a href="projectList.html">Project Grid</a></li>
-                                    <li><a href="projectsDetail.html">Project Details</a></li>
-                                </ul>
-                        </li>
-                        <li class="has-sub"><a href="blogList.html">News<i class="fa fa-angle-down"></i></a>
-                             <ul class="navi-level-2">
-                                <li><a href="blogList.html">Blog List</a></li>
-                                <li><a href="blogDetail.html">Blog Detail</a></li>                                    
-                            </ul>
-                        </li>
-                        <li class="has-sub"><a href="shop-catalog.html">Shop<i class="fa fa-angle-down"></i></a>
-                              <ul class="navi-level-2">
-                                  <li><a href="shop-catalog.html">Online Store Catalog</a></li>
-                                  <li><a href="shop-cart.html">Online Store Shopping Cart</a></li>
-                                  <li><a href="shop-checkout.html">Online Store Checkout</a></li>
-                                  <li><a href="shop-single.html">Single Store Product</a></li>
-                              </ul>
-                        </li>
-                        <li class="has-sub"><a href="">Pages  <i class="fa fa-angle-down"></i></a>
-                      
-                          <ul class="navi-level-2">
-                              <li><a href="elements.html">Element</a></li>
-                              <li><a href="typography.html">Typography</a></li>
-                              <li><a href="testimonial.html">Testinmonials</a>
-                              <li><a href="404.html">404 Page</a></li>
-                              <li><a href="comingsoon.html">Coming Soon</a></li>                                      
-                          </ul>
-                        </li>
-                        <li><a href="about.html">About Us  </a></li>
-                        <li class="has-sub"><a href="contact.html">Contact Us  <i class="fa fa-angle-down"></i></a>
-                          <ul class="navi-level-2">
-                              <li><a href="contact.html">Contact Style 1</a></li>
-                              <li><a href="contact2.html">Contact Style 2</a></li>
-                              <li><a href="contact3.html">Contact Style 3</a></li>                                    
-                          </ul>
-                        </li>
-                    </ul>
-        </nav>
-      </div> <!-- End container -->
-    </header><!-- END HEADER -->
+	        </div>
+	        <!-- Main header close -->
+	        <div class="header_mobile">
+	            <div class="mlogo_wrapper clearfix">
+	                <div class="mobile_logo">
+	                    <a href="#"><img src="images/logo-white.svg" alt="Consultax"></a>
+	                </div>
+	                <div id="mmenu_toggle">
+	                    <button></button>
+	                </div>
+	            </div>
+	            <div class="mmenu_wrapper">
+	                <div class="mobile_nav collapse">
+	                    <ul id="menu-main-menu" class="mobile_mainmenu">
+	                        <li class="current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="index.html">Home</a>
+	                            <ul class="sub-menu">
+	                                <li class="menu-item-home current-page_item page-item-1530 current_page_item menu-item-2017"><a href="index.html" aria-current="page">Home 1</a></li>
+	                                <li class="menu-item-2016"><a href="home-2.html">Home 2</a></li>
+	                                <li class="menu-item-2015"><a href="home-3.html">Home 3</a></li>
+	                                <li class="menu-item-2059"><a href="home-4.html">Home 4</a></li>
+	                            </ul>
+	                        </li>
+	                        <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1731"><a href="#">Pages</a>
+	                            <ul class="sub-menu">
+	                                <li class="menu-item-1738"><a href="about.html">About Us</a></li>
+	                                <li class="menu-item-1745"><a href="team.html">Our Team</a></li>
+	                                <li class="menu-item-1742"><a href="how-it-work.html">How It Work</a></li>
+	                                <li class="menu-item-1746"><a href="testimonials.html">Testimonials</a></li>
+	                                <li class="menu-item-1757"><a href="services.html">Services Box</a></li>
+	                                <li class="menu-item-1744"><a href="services-icon.html">Icon Box</a></li>
+	                                <li class="menu-item-1740"><a href="career.html">Career</a></li>
+	                            </ul>
+	                        </li>
+	                        <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1789"><a href="services.html">Services</a>
+	                            <ul class="sub-menu">
+	                                <li class="menu-item-1791"><a href="service-detail.html">Financial Consulting</a></li>
+	                                <li class="menu-item-1758"><a href="service-detail.html">International Business</a></li>
+	                                <li class="menu-item-1790"><a href="service-detail.html">Audit &amp; Assurance</a></li>
+	                                <li class="menu-item-1760"><a href="service-detail.html">Taxes and Efficiency</a></li>
+	                                <li class="menu-item-1761"><a href="service-detail.html">Bonds &amp; Commodities</a></li>
+	                            </ul>
+	                        </li>
+	                        <li class="menu-item-has-children"><a href="projects.html">Cases Study</a>
+	                            <ul class="sub-menu">
+	                                <li><a href="projects.html">Cases Study 2 Columns</a></li>
+	                                <li><a href="projects-2.html">Cases Study 3 Columns</a></li>
+	                                
+	                                <li><a href="project-detail.html">Cases Study Details</a></li>
+	                            </ul>
+	                        </li>
+	                        <li class="menu-item-has-children"><a href="blog.html">Blog</a>
+	                            <ul class="sub-menu">
+	                                <li><a href="blog.html">Blog List</a></li>
+	                                <li><a href="post.html">Blog Details</a></li>
+	                            </ul>
+	                        </li>
+	                        <li><a href="contact.html">Contact</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </header>
 
-    <!-- Section Header Title -->
-    <section class="bg-grey padding-top-45 padding-bottom-45 clearfix">
-      <div class="container">
-          <div class="row">
-            <div class="section-title">
-              <div class="col-md-12">
-                <h2>Contact</h2>
-              </div>
-            </div>
-          </div><!-- End Row -->
-      </div><!-- End container -->
-    
-    </section><!--  End Section -->
-    <!-- Section BreadCrumb -->
-    <div class="no-padding border-bottom">
-       <div class="container">
-          <div class="row">
-             <div class="col-md-12">
-                 <ol class="breadcrumb breadcrumb-finance">
-                    <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                    <li class="active">Contact</li>
-                  </ol>
-             </div><!--  End col -->
-          </div> <!-- End Row -->
-       </div><!-- End container -->
-    </div><!--  End Section -->
+		<div id="content" class="site-content">
+			<div class="page-header">
+			    <div class="container">
+			        <div class="breadc-box no-line">
+			            <div class="row">
+			                <div class="col-md-6">
+			                    <h1 class="page-title">Contact Us</h1>
+			                </div>
+			                <div class="col-md-6 mobile-left text-right">
+			                    <ul id="breadcrumbs" class="breadcrumbs none-style">
+			                        <li><a href="index.html">Home</a></li>
+			                        <li class="active">Contact Us</li>
+			                    </ul>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+			<div class="entry-content">
+				<div class="container">
+					<div class="boxed-content">
+					
+						<section class="wpb_row row-fluid section-padd no-bot">
+						    <div class="container">
+						        <div class="row">
+						            <div class="wpb_column column_container col-sm-12 col-md-9">
+						                <div class="column-inner">
+						                    <div class="wpb_wrapper">
+						                        <div class="section-head ">
+						                            <h6><span>London Office</span></h6>
+						                            <h2 class="section-title">149 OceanThemes St, Broughton Rd London, England</h2>
+						                        </div>
 
-    <div class="line"></div>
+						                        <div class="empty_space_12"><span class="empty_space_inner"></span></div>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="wpb_column column_container col-sm-12 col-md-8">
+						                <div class="column-inner">
+						                    <div class="wpb_wrapper">
+						                        <div class="wpb_text_column wpb_content_element contact-info">
+						                            <div class="wpb_wrapper">
+						                                <p><a href="mailto:info.consultax@gmail.com"><i class="fa fa-envelope"> info.consultax@gmail.com</i></a><a href="tel:+911 0113 0114"><i class="fa fa-phone-square"> +911 0113 0114</i></a></p>
 
-    <!-- Section form contact -->
-    <section class="padding-top:50px;">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-8 left-contact">
-    				<h4> Send Us a Message</h4>
-          				<form class="form-inline form-contact-finance" name="contact" method="post" action="send_form_email.php">
-            					<div class="row">
-        							  <div class="form-group col-sm-12  col-md-4">
-        							    <input type="text" class="form-control" name="yourName" id="yourName" placeholder="Your Name">
-        							  </div>
-        							  <div class="form-group col-sm-12 col-md-4">
-        							    <input type="email" class="form-control" name="yourEmail" id="yourEmail" placeholder="Your Email" >
-        							  </div>
-        							  <div class="form-group col-sm-12 col-md-4">
-        							    <input type="text" class="form-control" name="yourPhone" id="phoneNumber" placeholder="Phone Number" >
-        							  </div>
-      						    </div>
-      						    <div class="input-content">
-        						  	<div class="form-group form-textarea">
-        					  			<textarea id="textarea" class="form-control" name="comments" rows="6" placeholder="Your Messages" ></textarea>
-        						  	</div>
-        						  </div>
-                      <button  class="ot-btn large-btn btn-rounded  btn-main-color btn-submit">Send Mail</button>
-      					 </form> <!-- End Form -->
-    			</div> <!-- End col -->
-    			<div class="col-md-4 right-contact">
-    				<h4>Contact Info</h4>
-    				<p>
-    					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus arcu, malesuada a est eget, maximus efficitur sapien. 
-    				</p>
-    				<ul class="address">
-    					<li><p><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp; 8th floor, 379 Hudson St, New York, NY 10018</p></li>
-    					<li><p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp; (+1) 96 716 6879</p></li>
-    					<li><p><i class="fa fa-fax" aria-hidden="true"></i> &nbsp;(+1) 96 716 6879</p></li>
-    					<li><p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp; contact@finance.com</p></li>
-    					<li><p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp; Mon-Fri 09:00 - 17:00</p></li>
-    				</ul>
-    			</div> <!-- End col -->
-    		</div>
-    	</div>
-    </section>
-    <!-- End Section -->
-   	<!-- Section Google Map -->
-   	<div class="no-padding ">
-   		<div id="map-canvas" class="margin-top-15"></div>
-   	</div>
-   	<!-- End Section -->
+						                            </div>
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="wpb_column column_container col-sm-12 col-md-4">
+						                <div class="column-inner">
+						                    <div class="wpb_wrapper">
+						                        <div class="wpb_text_column wpb_content_element socials text-right md-hidden sm-hidden">
+						                            <div class="wpb_wrapper">
+						                                <p><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-official">fb</i></a><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter">tw</i></a><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-pinterest">pr</i></a></p>
 
-  
-    
+						                            </div>
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						    </div>
+						</section>
 
-    <!-- Footer --> 
-    <footer class=" bg-dark footer">
-            <div class="container">
-              <div class="row">
-                <div class="footer-row">
-                  
-                    <div class="footer-col-1">
-                        <a href="index.html"><img src="images/Footer/logo-footer.png" class="img-responsive" alt="Image"></a>                    
-                        <ul class="clearfix">
-                          <li><a href="services-detail.html">Finacial Planning</a></li>
-                          <li><a href="services-detail.html">Insurance Consulting</a></li>
-                          <li><a href="services-detail.html">Investments Management</a></li>
-                          <li><a href="services-detail.html">Retirement Strategies</a></li>
-                          <li><a href="services-detail.html">Taxes Planning</a></li>
-                          <li><a href="services-detail.html">Business Loan</a></li>
-                        </ul>
-                      </div>
-                  
-                  
-                    <div class="footer-col-2">
-                      <h3 class="text-white">Contact us</h3>
-                      <div class="border-2-side">
-                        <p>Address: 8th floor, 379 Hudson St, New York, NY 10018</p>
-                        <p><span >Phone: (+1) 96 716 6879</span></p>
-                        <p><span >Email: contact@site.com</span></p>
-                      </div>
-                    </div>
-               
-               
-                    <div class="footer-col-3">
-                          <h3 class="text-white">Follow us</h3> 
-                          <ul class="social social-footer">
-                            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                          </ul>
-                    </div>
-              
-                </div> <!-- End footer row -->
-                <div class="col-md-12 footer-link">
-                  <p>Copyright © 2016 Designed by AuThemes. All rights reserved.</p>
-                  <ul>
-                    <li><a href="about.html">About </a></li>
-                    <li><a href="contact.html">Contact Us </a></li>
-                    <li><a href="#">Term & Conditions</a></li>
-                    <li><a href="#">Privacy Policy </a></li>
-                    <li><a href="#">Sites Map</a></li>
-                  </ul>
-                </div>
-              </div><!-- End Row -->
+						<section class="wpb_row row-fluid section-padd no-bot">
+						    <div class="container">
+						        <div class="row">
+						            <div class="wpb_column column_container col-sm-12">
+						                <div class="column-inner">
+						                    <div class="wpb_wrapper">
+						                        <div class="gray-line">
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						    </div>
+						</section>
 
-            </div><!-- End container -->
-        </footer><!-- End  -->
+						<section class="wpb_row row-fluid section-padd">
+						    <div class="container">
+						        <div class="row">
+						            <div class="wpb_column column_container col-sm-12 col-md-7">
+						                <div class="column-inner">
+						                    <div class="wpb_wrapper">
+						                        <div class="section-head ">
+						                            <h6><span>CONTACT FORM</span></h6>
+						                            <h2 class="section-title">How can we help</h2>
+						                        </div>
 
+						                        <div class="empty_space_12"><span class="empty_space_inner"></span></div>
+						                        <div role="form" class="wpcf7" id="wpcf7-f1989-p967-o1" lang="en-US" dir="ltr">
+						                            <div class="screen-reader-response"></div>
+						                            <form action="#" method="post" class="wpcf7-form">
+						                                <div class="row">
+						                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap your-fname"><input type="text" name="your-fname" value="" size="40" class="wpcf7-form-control" required="" placeholder="First Name"></span></div>
+						                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap your-lname"><input type="text" name="your-lname" value="" size="40" class="wpcf7-form-control" required="" placeholder="Last Name"></span></div>
+						                                </div>
+						                                <div class="row">
+						                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control" placeholder="Phone Number"></span></div>
+						                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control" required="" placeholder="Email Address"></span></div>
+						                                </div>
+						                                <div class="row">
+						                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap your-company"><input type="text" name="your-company" value="" size="40" class="wpcf7-form-control" placeholder="Your Company"></span></div>
+						                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control" placeholder="Subject"></span></div>
+						                                </div>
+						                                <div class="contact-mess"><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control" required="" placeholder="Messenger"></textarea></span></div>
+						                                <p>
+						                                    <input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit btn">
+						                                </p>
+						                            </form>
+						                        </div>
+						                        <div class="empty_space_30 lg-hidden"><span class="empty_space_inner"></span></div>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="wpb_column column_container col-sm-12 col-md-5">
+						                <div class="column-inner">
+						                    <div class="wpb_wrapper">
+						                        <div class="wpb_single_image wpb_content_element align_center">
+						                            <figure class="wpb_wrapper figure">
+						                                <div class="single_image-wrapper box_border_grey"><img src="https://via.placeholder.com/750x990" class="single_image-img attachment-full" alt=""></div>
+						                            </figure>
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						    </div>
+						</section>
+								
+						<img src="https://via.placeholder.com/1170x500?text=google+map" alt="">
 
+						<section class="wpb_row row-fluid address-section">
+						    <div class="container">
+						        <div class="row">
+						            <div class="wpb_column column_container col-sm-6">
+						                <div class="column-inner">
+						                    <div class="wpb_wrapper">
+						                        <div class="wpb_text_column wpb_content_element">
+						                            <div class="wpb_wrapper">
+						                                <h4>London Office</h4>
+						                                <p>007 OceanThemes St, Broughton Rd, London, England</p>
+														<div class="empty_space_30"><span class="empty_space_inner"></span></div>
+						                            </div>
+						                        </div>
 
-</div> <!-- End Page -->
-    <a id="to-the-top" style="display: block;"><i class="fa fa-angle-up"></i></a> <!-- Back To Top -->
-     <!-- SCRIPT
-    ================================================== -->
-    	<script src="js/vendor/jquery.min.js"></script>
-	<script src="js/plugins/jpreLoader.js"></script>
-    <script src="js/plugins/jquery.waypoints.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/plugins/easing.js"></script>
-    <script src="js/plugins/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/plugins/fancySelect.js"></script>
-    <script src="js/plugins/custom.js"></script>
-    <!-- Switcher
-    ================================================== -->
-    <script src="switcher/demo.js"></script>
-    <!-- Mobile Menu
-    ================================================== --> 
-     <script src="js/plugins/jquery.mobile-menu.js"></script>  
-     <script src="js/plugins/sticky.min.js"></script>
-    <!-- Initializing Google Maps -->
-    <script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script>  
-    <script src="js/plugins/contact.js"></script> 
+						                        <div class="wpb_text_column wpb_content_element">
+						                            <div class="wpb_wrapper">
+						                                <h4>Berlin Office</h4>
+						                                <p>Hans-Wilhelm-Gasse 0/3, 98051 Schwarzenberg</p>
+						                            </div>
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="wpb_column column_container col-sm-6">
+						                <div class="column-inner">
+						                    <div class="wpb_wrapper">
+						                        <div class="wpb_text_column wpb_content_element">
+						                            <div class="wpb_wrapper">
+						                                <h4>New York Office</h4>
+						                                <p>6803 Dickens Islands Apt. 567, Port Malikaview, TX 14942</p>
+														<div class="empty_space_30"><span class="empty_space_inner"></span></div>
+						                            </div>
+						                        </div>
+
+						                        <div class="wpb_text_column wpb_content_element">
+						                            <div class="wpb_wrapper">
+						                                <h4>Madrid Office</h4>
+						                                <p>Travessera Eric, 896, 59° 8°, 61008, Sarabia Alta</p>
+						                            </div>
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						    </div>
+						</section>
+
+					</div>
+			    </div>
+			</div>
+		</div>
+	    
+
+	    <footer id="site-footer" class="site-footer bg-second">
+	        <div class="main-footer">
+	            <div class="container">
+	                <div class="row">
+
+	                    <div class="col-md-3 col-sm-6">
+	                        <div id="media_image-1" class="widget widget_media_image">
+	                            <a href="index.html"><img src="images/logo-white.svg" alt=""></a>
+	                        </div>
+	                        <div id="custom_html-1" class="widget_text widget widget_custom_html">
+	                            <div class="textwidget custom-html-widget">
+	                                <p>Sorem ipsum dolor sit amet consectetur adipiscing elit dapibus non apte magna ad suspendisse nec pulvi.</p>
+
+	                                <p>
+	                                    <a href="about.html" class="pagelink gray">About us</a>
+	                                </p>
+	                                <div class="ot-socials bg-white">
+	                                    <a target="_blank" href="#" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+	                                    <a target="_blank" href="#" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+	                                    <a target="_blank" href="#" rel="noopener noreferrer"><i class="fa fa-pinterest-p"></i></a>
+	                                    <a target="_blank" href="#" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <!-- end col-lg-3 -->
+
+	                    <div class="col-md-3 col-sm-6">
+	                        <section id="custom_html-2" class="widget_text widget widget_custom_html padding-left">
+	                            <h4 class="widget-title">Services</h4>
+	                            <div class="textwidget custom-html-widget">
+	                                <ul class="padd-left">
+	                                    <li><a href="service-detail.html">Audit &amp; Assurance</a></li>
+	                                    <li><a href="service-detail.html">Bonds &amp; Commodities</a></li>
+	                                    <li><a href="service-detail.html">Financial Consulting</a></li>
+	                                    <li><a href="service-detail.html">Trades &amp; Stocks</a></li>
+	                                    <li><a href="service-detail.html">Financial Projections</a></li>
+	                                    <li><a href="service-detail.html">Strategic Planning</a></li>
+	                                </ul>
+	                            </div>
+	                        </section>
+	                    </div>
+	                    <!-- end col-lg-3 -->
+
+	                    <div class="col-md-3 col-sm-6">
+	                        <section id="custom_html-3" class="widget_text widget widget_custom_html padding-left">
+	                            <h4 class="widget-title">Company</h4>
+	                            <div class="textwidget custom-html-widget">
+	                                <ul class="padd-left">
+	                                    <li><a href="index.html">Home</a></li>
+	                                    <li><a href="about.html">About</a></li>
+	                                    <li><a href="services.html">Features</a></li>
+	                                    <li><a href="services.html">Services</a></li>
+	                                    <li><a href="blog.html">Blog</a></li>
+	                                    <li><a href="contact.html">Contact</a></li>
+	                                </ul>
+	                            </div>
+	                        </section>
+	                    </div>
+	                    <!-- end col-lg-3 -->
+
+	                    <div class="col-md-3 col-sm-6">
+	                        <section id="mc4wp_form_widget-1" class="widget widget_mc4wp_form_widget">
+	                            <h4 class="widget-title">Subscribe</h4>
+	                            <!-- Mailchimp for WordPress v4.5.2 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+	                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1696" method="post" data-id="1696" data-name="Consultax Subscribe">
+	                                <div class="mc4wp-form-fields">
+	                                    <div class="footer-sub">
+	                                        <input type="text" name="NAME" placeholder="Name" required="">
+	                                        <input type="email" name="EMAIL" placeholder="Email Address" required="">
+	                                        <input type="submit" class="btn" value="Subscribe">
+	                                    </div>
+	                                </div>
+	                                <input type="hidden" name="_mc4wp_timestamp" value="1560227031">
+	                                <input type="hidden" name="_mc4wp_form_id" value="1696">
+	                                <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+	                                <div class="mc4wp-response"></div>
+	                            </form>
+	                            <!-- / Mailchimp for WordPress Plugin -->
+	                        </section>
+	                    </div>
+	                    <!-- end col-lg-3 -->
+
+	                </div>
+	            </div>
+	        </div>
+	        <!-- .main-footer -->
+	        <div class="footer-bottom">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-6">
+	                        <div class="footer-copyright">
+	                            © 2019 Finacial Consulting Template by <a target="_blank" href="http://themeforest.net/user/ThemeModern/portfolio">ThemeModern</a>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-6">
+	                        <div class="footer-nav text-right mobile-center">
+	                            <ul id="footer-menu" class="none-style">
+	                                <li><a href="#">Terms and Conditions</a></li>
+	                                <li><a href="#">Privacy Policy</a></li>
+	                                <li><a href="#">FAQs</a></li>
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- .copyright-footer -->
+	        <a id="back-to-top" href="#" class="show"></a>
+	    </footer>
+	</div>
+
+	<script type='text/javascript' src='js/jquery.min.js'></script>
+	<script type='text/javascript' src='js/countto.min.js'></script>
+	<script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+	<script type='text/javascript' src='js/royal_preloader.min.js'></script>
+	<script type='text/javascript' src='js/slick.min.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+	<script type='text/javascript' src='js/header-footer.js'></script>
 </body>
 </html>
