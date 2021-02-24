@@ -14,8 +14,16 @@ use App\Http\Controllers\HomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//--------- pages -------------
 Route::get('/', 'App\Http\Controllers\FrontController@index');
+Route::get('/about', 'App\Http\Controllers\FrontController@about');
+Route::get('/blog', 'App\Http\Controllers\FrontController@blog');
+Route::get('/career', 'App\Http\Controllers\FrontController@career');
+Route::get('/contact', 'App\Http\Controllers\FrontController@contact');
+Route::get('/projects', 'App\Http\Controllers\FrontController@about');
+Route::get('/projectDetail', 'App\Http\Controllers\FrontController@projectDetail');
+Route::get('/service', 'App\Http\Controllers\FrontController@service');
+
 
 Auth::routes();
 
