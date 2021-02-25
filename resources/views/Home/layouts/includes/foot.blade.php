@@ -38,25 +38,16 @@
 
 
     function openForm() {
-        document.getElementById("myCart").style.display = "none";
 
-        if (document.getElementById("myForm").style.display == "block") {
-            document.getElementById("myForm").style.display = "none";
-        } else if (document.getElementById("myForm").style.display == "none") {
+        document.getElementById('loginForm').style.display='block'
+    }
 
-            document.getElementById("myForm").style.display = "block";
-            document.getElementById("myCartMd").style.display = "none";
-            document.getElementById("myFormMd").style.display = "none";
-            document.getElementById("myCart").style.display = "none";
+    var modal = document.getElementById('loginForm');
 
-
-        } else {
-            document.getElementById("myForm").style.display = "block";
-            document.getElementById("myCartMd").style.display = "none";
-            document.getElementById("myFormMd").style.display = "none";
-            document.getElementById("myCart").style.display = "none";
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
         }
-
-        document.getElementById("myCart").style.display = "none";
     }
 </script>

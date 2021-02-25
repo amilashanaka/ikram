@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Consultax – Financial & Consulting HTML5 Template</title>
+<title>IKRAM QA Services Sdn Bhd</title>
 
 <link rel="stylesheet" id="bootstrap-css" href="{{asset("Home/css/bootstrap.css")}}" type="text/css" media="all">
 <link rel="stylesheet" id="awesome-font-css" href="{{asset("Home/css/font-awesome.css")}}" type="text/css" media="all">
@@ -20,3 +20,6 @@
 <link rel="stylesheet" type="text/css" href="{{asset("Home/revolution/css/navigation.css")}}">
 
 <link rel="shortcut icon" href="{{asset("Home/favicon.png")}}">
+
+
+<link rel="stylesheet" type="text/css" href="{{asset("Home/css/custom.css")}}">
