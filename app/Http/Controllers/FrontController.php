@@ -71,6 +71,17 @@ public function organisation_chart(){
     return view('Home.service');
 }
 
+public function forms_product(){
+
+    return view('Home.service');
+
+}
+
+
+public function form_products_list(){
+
+    return view('Home.service');
+}
 
 
 

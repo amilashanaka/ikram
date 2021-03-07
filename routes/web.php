@@ -16,7 +16,11 @@ use App\Http\Controllers\FrontController;
 |
 */
 //--------- pages -------------
-Route::get('/', 'App\Http\Controllers\FrontController@index');
+Route::get('/', [FrontController::class, 'index'])->name('home');
+Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
+Route::get('/career', [FrontController::class, 'career'])->name('career');
+Route::get('/contact', [FrontController::class, 'contact'])->name('contact');
+Route::get('/feedback', [FrontController::class, 'feedback'])->name('feedback');
 
 
 Route::prefix('/about')->group(function () {
@@ -28,10 +32,12 @@ Route::prefix('/about')->group(function () {
 });
 
 Route::prefix('/services')->group(function () {
+    Route::get( '/', [FrontController::class, 'services'])->name('services');
     Route::get( '/product-certification', [FrontController::class, 'product_certification'])->name('product-certification');
     Route::get( '/local-product-listing', [FrontController::class, 'local_product_listing'])->name('local-product-listing');
     Route::get( '/testing-services', [FrontController::class, 'testing_services'])->name('testing_services');
-
+    Route::get( '/directory', [FrontController::class, 'testing_services'])->name('testing_services');
+    Route::get( '/guides', [FrontController::class, 'guides'])->name('guides');
 });
 
 //certification
@@ -46,20 +52,14 @@ Route::prefix('/certification')->group(function () {
 //Forms
 
 Route::prefix('/forms')->group(function () {
-    Route::get( '/products', [FrontController::class, 'certified_product'])->name('products');
-    Route::get( '/standard', [FrontController::class, 'certified_standard'])->name('standard');
-    Route::get( '/relevant-acts-directives', [FrontController::class, 'relevant_acts_directives'])->name('relevant-acts-directives');
+    Route::get( '/products', [FrontController::class, 'forms_product'])->name('products');
+    Route::get( '/products-list', [FrontController::class, 'form_products_list'])->name('products-list');
+    Route::get( '/consignments', [FrontController::class, 'form_consignments'])->name('consignments');
 
 });
 
 
-
-Route::get('/blog', 'App\Http\Controllers\FrontController@blog');
-Route::get('/career', 'App\Http\Controllers\FrontController@career');
-Route::get('/contact', 'App\Http\Controllers\FrontController@contact');
-Route::get('/projects', 'App\Http\Controllers\FrontController@about');
-Route::get('/projectDetail', 'App\Http\Controllers\FrontController@projectDetail');
-Route::get('/service', 'App\Http\Controllers\FrontController@service');
+ //----- end pages ----------------------------------------------------------
 
 
 Auth::routes();
