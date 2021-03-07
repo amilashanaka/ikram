@@ -54,6 +54,23 @@ class FrontController extends Controller
         return view('Home.service');
     }
 
+    public function background(){
+        return view('Home.service');
+
+    }
+
+
+    public function vision_mission(){
+
+        return view('Home.service');
+
+}
+
+public function organisation_chart(){
+
+    return view('Home.service');
+}
+
 
 
 

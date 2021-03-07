@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd704408-96b6-4688-8df8-48c9aa0b3a51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/ikram_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/layouts/includes/search.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Home/layouts/includes/Header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Home/layouts/includes/Header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +201,11 @@
       <workItem from="1614285335759" duration="6022000" />
       <workItem from="1614373990050" duration="1227000" />
       <workItem from="1614641888423" duration="1340000" />
+      <workItem from="1614745200826" duration="610000" />
+      <workItem from="1614811108521" duration="19000" />
+      <workItem from="1614861363011" duration="654000" />
+      <workItem from="1614951915942" duration="9000" />
+      <workItem from="1615085528672" duration="6941000" />
     </task>
     <servers />
   </component>
@@ -209,10 +216,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="604" y="341" key="NewPhpFileDialog" timestamp="1614641904980">
+    <state x="604" y="341" key="NewPhpFileDialog" timestamp="1615085898615">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1614641904980" />
+    <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1615085898615" />
     <state x="353" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613873599799">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

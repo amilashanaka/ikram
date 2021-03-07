@@ -7,8 +7,9 @@
                 <div class="col-md-12">
                     <!-- contact info -->
                     <ul class="info-list fleft">
-                        <li><i class="fa fa-map-marker"></i> London City, England ( <a href="#">View map</a> )</li>
-                        <li><i class="fa fa-phone"></i><a href="tel:8143527">(+917)  814 - 3527</a></li>
+                        <li><i class="fa fa-map-marker"></i> Block 5, 1st Floor,
+                            Unipark Suria, Jalan Ikram-Uniten, ( <a href="#">View map</a> )</li>
+                        <li><i class="fa fa-phone"></i><a href="tel:8143527">(+60)   03-8738 3388</a></li>
                     </ul>
                     <!-- contact info close -->
 
@@ -37,7 +38,7 @@
                 <div class="col-md-12">
                     <div class="col-wrap-table">
                         <div id="site-logo" class="site-logo col-media-left col-media-middle">
-                            <a href="index.html">
+                            <a href="/">
 
 
                                 <img class="logo-static" src="{{asset("Home/images/logo.png")}}" alt="Consultax">
@@ -52,32 +53,21 @@
                                 <div class="h-cart-btn fright"><a onclick="openForm()"><i class="fa fa-user-circle" aria-hidden="true"></i></a></div>
 
                                 @include('Home.layouts.includes.login')
-                                <div class="toggle_search fright"><i class="fa fa-search" aria-hidden="true"></i></div>
-                                <div class="h-search-form-field">
-                                    <form role="search" method="get" id="search-form" class="search-form" action="#">
-                                        <input type="search" class="search-field" placeholder="Enter keyword..." value="" name="s">
-                                        <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
-                                    </form>
-                                </div>
+{{--                                @include('Home.layouts.includes.search')--}}
                             </div>
                             <div id="site-navigation" class="main-navigation fright">
                                 <ul id="primary-menu" class="menu">
-                                    <li class="menu-item-has-children">
-                                        <a href="index.html">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html" aria-current="page">Home 1</a></li>
-                                            <li><a href="home-2.html">Home 2</a></li>
-                                        </ul>
+                                    <li  >
+                                        <a href="/">Home</a>
+
                                     </li>
-                                    <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Pages</a>
+                                    <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/about">About Us</a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item-1738"><a href="about.html">About Us</a></li>
-                                            <li class="menu-item-1745"><a href="team.html">Our Team</a></li>
-                                            <li class="menu-item-1742"><a href="how-it-work.html">How It Work</a></li>
-                                            <li class="menu-item-1746"><a href="testimonials.html">Testimonials</a></li>
-                                            <li class="menu-item-1757"><a href="services.html">Services Box</a></li>
-                                            <li class="menu-item-1744"><a href="services-icon.html">Icon Box</a></li>
-                                            <li class="menu-item-1740"><a href="career.html">Career</a></li>
+                                            <li class="menu-item-1738"><a href="/about/background">background</a></li>
+                                            <li class="menu-item-1745"><a href="/about/vision-mission">vision&mission</a></li>
+                                            <li class="menu-item-1742"><a href="/about/organisation-chart">organisation chart</a></li>
+                                            <li class="menu-item-1746"><a href="/about/achievement-chart">Achievement</a></li>
+
                                         </ul>
                                     </li>
                                     <li class="menu-item-type-custom menu-item-has-children"><a href="services.html">Services</a>
