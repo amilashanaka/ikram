@@ -1,32 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head>
-    @include('Home.layouts.includes.head')
+<html lang="en">
+@include('Admin.layouts.includes.head')
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
 
-</head>
+@include('Admin.layouts.includes.navbar')
 
+<!-- Main Sidebar Container -->
+@include('Admin.layouts.includes.sidebar')
 
-<body class="royal_preloader">
-<div id="page" class="site">
-
-    @include('Home.layouts.includes.Header')
-
-    <div id="content" class="site-content">
-
-        @yield('content')
-
-    </div>
+<!-- Content Wrapper. Contains page content -->
+@yield('content')
 
 
-    @include('Home.layouts.includes.footer')
+<!-- /.content-wrapper -->
+@include('Admin.layouts.includes.footer')
+
+<!-- Control Sidebar -->
+@include('Admin.layouts.includes.control-sidebar')
+<!-- /.control-sidebar -->
 </div>
-
-
-
-
-</div>
-
-@include('Home.layouts.includes.foot')
+@include('Admin.layouts.includes.foot')
 </body>
-
 </html>
