@@ -70,4 +70,32 @@
         </div>
     </div>
 </div>
+
+{{--<!-- ========== Css Files ========== -->--}}
+{{--<link href="{{asset('Admin/dist/css/css/root.css')}}/" rel="stylesheet" type="text/css"/>--}}
+
+{{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">--}}
+{{--<style type="text/css">--}}
+{{--    body{background: #F5F5F5;}--}}
+
+{{--    .login-form form .top .icon {--}}
+{{--        width: auto;--}}
+{{--        height: 100px;--}}
+{{--    }--}}
+
+{{--    .login-form {--}}
+
+{{--        padding-top: 50px;--}}
+
+{{--    }--}}
+
+{{--    .login-form form .top {--}}
+
+{{--        padding: 0px ;--}}
+{{--    }--}}
+
+
+{{--</style>--}}
+
+
 @endsection
