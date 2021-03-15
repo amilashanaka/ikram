@@ -46,6 +46,17 @@
                     </a>
 
                 </li>
+
+                <li class="nav-item ">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-folder"></i>
+                        <p>
+                            FORMS
+
+                        </p>
+                    </a>
+
+                </li>
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-boxes"></i>
@@ -62,6 +73,13 @@
                             </a>
                         </li>
 
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" style="font-size: 13px;">
+                                <i class="fa fa-list"></i>
+                                <p>Standard List</p>
+                            </a>
+                        </li>
+
 
                         <br>
                     </ul>
@@ -69,29 +87,29 @@
 
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-icon-list"></i>
+                        <i class="nav-icon fas fa-sticky-note"></i>
                         <p>
-                            PAGES
+                            PAGES SETTINGS
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="comment_pending_list.php" class="nav-link" style="font-size: 13px;">
-                                <i class="fa fa-comment nav-icon"></i>
-                                <p>Request List</p>
+                            <a href="#" class="nav-link" style="font-size: 13px;">
+                                <i class="fa fa-home nav-icon"></i>
+                                <p>Home</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="comments_approved_list.php" class="nav-link" style="font-size: 13px;">
-                                <i class="fa fa-thumbs-up nav-icon"></i>
-                                <p>Approved List></p>
+                                <i class="fa fa-list nav-icon"></i>
+                                <p>Relevant-acts-directives</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="comments_rejected_list.php" class="nav-link" style="font-size: 13px;">
-                                <i class="fa fa-thumbs-down nav-icon"></i>
-                                <p>Rejected List</p>
+                                <i class="fa fa-list nav-icon"></i>
+                                <p>Guides</p>
                             </a>
                         </li>
 
@@ -99,37 +117,7 @@
                     </ul>
                 </li>
 
-                <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-money nav-icon"></i>
-                        <p>
-                            PAYMENTS
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="payment_pending_list.php" class="nav-link" style="font-size: 13px;">
-                                <i class="fa fa-money nav-icon"></i>
-                                <p>Payment Request</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="payment_approved_list.php" class="nav-link" style="font-size: 13px;">
-                                <i class="fa fa-thumbs-up nav-icon"></i>
-                                <p>Approved List</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="payment_rejected_list.php" class="nav-link" style="font-size: 13px;">
-                                <i class="fa fa-thumbs-down nav-icon"></i>
-                                <p>Rejected List </p>
-                            </a>
-                        </li>
 
-                        <br>
-                    </ul>
-                </li>
 
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
