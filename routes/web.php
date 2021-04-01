@@ -65,3 +65,9 @@ Route::prefix('/forms')->group(function () {
 Auth::routes();
 
 Route::get('/admin', [HomeController::class, 'index'])->name('admin');
+
+Auth::routes();
+
+Route::get('/home', function() {
+    return view('home');
+})->name('home')->middleware('auth');
